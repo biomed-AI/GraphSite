@@ -14,7 +14,7 @@ To run the full & accurate version of GraphSite, you need to install the followi
 [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) and [UniRef90](https://www.uniprot.org/downloads)  
 [HH-suite](https://github.com/soedinglab/hh-suite) and [Uniclust30](https://uniclust.mmseqs.com/)  
 [DSSP](https://github.com/cmbi/dssp)  
-Besides, you need to provide the predicted protein structures along with the single representations from AlphaFold2. We recommend you to register and use the [Tianhe-2 supercomputer](starlight.nscc-gz.cn) platform, where AlphaFold2 was already installed with graphical interface.  
+Besides, you need to provide the predicted protein structures along with the single representations from AlphaFold2. We recommend you to register and use the [Tianhe-2 supercomputer](https://starlight.nscc-gz.cn) platform, where AlphaFold2 was already installed with graphical interface.  
 However, if you use the reduced version of GraphSite, the BLAST+&HH-suite and AlphaFold2 single representations are alternative.  
 
 # Build database and set path  
