@@ -1,6 +1,6 @@
 # Intro  
-GraphSite is a novel framework for sequence-based protein-DNA binding site prediction using graph transformer and predicted protein structures from AlphaFold. This repository is still under development!  
-![GraphSite_framework](https://github.com/biomed-AI/GraphSite/blob/master/IMG/GraphSite_framework.png)
+GraphSite is a novel framework for sequence-based protein-DNA binding site prediction using graph transformer and predicted protein structures from AlphaFold2. We recommend you to use the [web server](https://biomed.nscc-gz.cn/apps/GraphSite) of GraphSite if your input is small (coming soon).  
+![GraphSite_framework](https://github.com/biomed-AI/GraphSite/blob/master/IMG/GraphSite_framework.png)   
 
 # System requirement  
 GraphSite is developed under Linux environment with:  
@@ -8,31 +8,41 @@ python  3.8.5
 numpy  1.19.1  
 pandas  1.1.3  
 torch  1.7.1  
-scikit-learn  0.23.2  
 
-# Run GraphSite for training and testing  
-Train:  
+# Software and database requirement  
+To run the full & accurate version of GraphSite, you need to install the following three software and download the corresponding databases:  
+[BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) and [UniRef90](https://www.uniprot.org/downloads)  
+[HH-suite](https://github.com/soedinglab/hh-suite) and [Uniclust30](https://uniclust.mmseqs.com/)  
+[DSSP](https://github.com/cmbi/dssp)  
+Besides, you need to provide the predicted protein structures along with the single representations from AlphaFold2. We recommend you to register and use the [Tianhe-2 supercomputer](starlight.nscc-gz.cn) platform, where AlphaFold2 was already installed with graphical interface.  
+However, if you use the reduced version of GraphSite, the BLAST+&HH-suite and AlphaFold2 single representations are alternative.  
+
+# Build database and set path  
+1. Use `makeblastdb` in BLAST+ to build UniRef90 ([guide](https://www.ncbi.nlm.nih.gov/books/NBK569841/)).  
+2. Build Uniclust30 following [this guide](https://github.com/soedinglab/uniclust-pipeline).  
+3. Set path variables `UR90`, `HHDB`, `PSIBLAST`, `HHBLITS` and `DSSP` in `GraphSite_predict.py`.  
+
+# Run GraphSite for prediction  
+Run full & accurate version of GraphSite:  
 ```
-python main.py --train --seed 2021 --run_id demo
+python ./script/GraphSite_predict.py --path ./demo/ --id 6ymw_B
 ```
-Test on Test_129:  
+This requires that the predicted structure 6ymw_B.pdb and raw single representation 6ymw_B_single.npy exist in the provided path.  
+The program uses the full model in default. If you want to use the reduced version of GraphSite that adopts only AlphaFold2 single representation as MSA information, type as follows:  
 ```
-python main.py --test1 --seed 2021 --run_id demo
+python ./script/GraphSite_predict.py --path ./demo/ --id 6ymw_B --msa single
 ```
-Test on Test_196:  
-```
-python main.py --test2 --seed 2021 --run_id demo
-```
+Set `--msa evo` to use only evolutionary features (PSSM + HMM) as MSA information (might causes large performance drop); Set `--msa both` to use the full version of GraphSite, which is the default option.  
 
 # Dataset, feature and model  
-We provide the datasets, the pre-predicted structures, part of the pre-computed features (just for demonstration) and the pre-trained models here for those interested in reproducing our paper.  
-The datasets used in this study (DNA_Train_573, DNA_Test_129 and DNA_Test_196) are stored in ./Dataset in python dictionary format:  
+We provide the datasets, the pre-predicted structures, the pre-computed features and the pre-trained models here for those interested in reproducing our paper.  
+The datasets used in this study (DNA_Train_573, DNA_Test_129 and DNA_Test_181) are stored in ./Dataset/ in python dictionary format:  
 ```
 Dataset[ID] = [seq, label]
 ```
-The distance maps (max_len * max_len), the normalized node feature matrixes (max_len * 398), label (max_len,) and the padding mask (max_len,) are stored in ./Feature/input/ where max_len = 1937.
-The pre-trained GraphSite models can be found under ./output/demo/.  
+The Min-Max normalized PSSM, HMM and DSSP feature matrixes are stored in ./Feature/ and the normalized AlphaFold2 single representations are stored in [google drive](https://drive.google.com/drive/folders/1GGqqYBZAd2IA5BuQEzsHVJon1ZiQbgEy?usp=sharing).  
+The pre-trained GraphSite models can be found under ./Model/.  
 
-# Contact   
+# Contact  
 Qianmu Yuan (yuanqm3@mail2.sysu.edu.cn)  
 Yuedong Yang (yangyd25@mail.sysu.edu.cn)
