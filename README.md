@@ -8,6 +8,7 @@ python  3.8.5
 numpy  1.19.1  
 pandas  1.1.3  
 torch  1.7.1  
+biopython  1.78  
 
 # Software and database requirement  
 To run the full & accurate version of GraphSite, you need to install the following three software and download the corresponding databases:  
