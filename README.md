@@ -28,7 +28,7 @@ Run full & accurate version of GraphSite:
 ```
 python ./script/GraphSite_predict.py --path ./demo/ --id 6ymw_B
 ```
-This requires that the predicted structure 6ymw_B.pdb and raw single representation 6ymw_B_single.npy exist in the provided path.  
+This requires that the predicted structure `6ymw_B.pdb` and raw single representation `6ymw_B_single.npy` exist in the provided path.  
 The program uses the full model in default. If you want to use the reduced version of GraphSite that adopts only AlphaFold2 single representation as MSA information, type as follows:  
 ```
 python ./script/GraphSite_predict.py --path ./demo/ --id 6ymw_B --msa single
