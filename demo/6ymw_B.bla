@@ -1,0 +1,1692 @@
+PSIBLAST 2.10.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref90
+           74,086,964 sequences; 25,053,397,734 total letters
+
+Results from round 1
+
+
+Query= 6ymw_B
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+UniRef90_P14908 Mitochondrial transcription factor 1 n=18 Tax=Sac...  704     0.0   
+UniRef90_H0GZN9 Mtf1p n=1 Tax=Saccharomyces cerevisiae x Saccharo...  640     0.0   
+UniRef90_J8Q3D4 Mtf1p n=1 Tax=Saccharomyces arboricola (strain H-...  640     0.0   
+UniRef90_A0A0L8RDP3 MTF1-like protein n=1 Tax=Saccharomyces eubay...  629     0.0   
+UniRef90_P87292 Mitochondrial transcription factor 1 n=1 Tax=Lach...  417     1e-143
+UniRef90_A0A1S7HY40 rRNA adenine N(6)-methyltransferase n=4 Tax=Z...  407     2e-139
+UniRef90_G8ZPD9 rRNA adenine N(6)-methyltransferase n=1 Tax=Torul...  407     2e-139
+UniRef90_C5E0U8 rRNA adenine N(6)-methyltransferase n=2 Tax=Zygos...  399     3e-136
+UniRef90_A0A1Q3AKQ9 rRNA adenine N(6)-methyltransferase n=1 Tax=Z...  395     7e-135
+UniRef90_A0A1G4INA1 LAMI_0A03686g1_1 n=1 Tax=Lachancea mirantina ...  369     2e-124
+UniRef90_C5DF87 rRNA adenine N(6)-methyltransferase n=1 Tax=Lacha...  367     6e-124
+UniRef90_J7RR28 rRNA adenine N(6)-methyltransferase n=1 Tax=Kazac...  365     4e-123
+UniRef90_A0A1G4JSJ5 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  363     3e-122
+UniRef90_A0A1G4KN05 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  362     8e-122
+UniRef90_A0A1G4MD24 LAFE_0E06634g1_1 n=1 Tax=Lachancea fermentati...  359     1e-120
+UniRef90_G0VC72 rRNA adenine N(6)-methyltransferase n=1 Tax=Naumo...  358     3e-120
+UniRef90_A0A1G4JQ47 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  358     4e-120
+UniRef90_A0A0P1KL66 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  356     2e-119
+UniRef90_A0A1G4J424 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  354     9e-119
+UniRef90_Q6FIW3 Uncharacterized protein n=2 Tax=Candida glabrata ...  350     4e-117
+UniRef90_A7TIS4 rRNA adenine N(6)-methyltransferase n=1 Tax=Vande...  345     3e-115
+UniRef90_G8BVF5 rRNA adenine N(6)-methyltransferase n=1 Tax=Tetra...  341     1e-113
+UniRef90_G0WHM3 rRNA adenine N(6)-methyltransferase n=1 Tax=Naumo...  340     7e-113
+UniRef90_H2AQI6 rRNA adenine N(6)-methyltransferase n=1 Tax=Kazac...  338     3e-112
+UniRef90_A0A0C7ML09 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  333     2e-110
+UniRef90_A0A1X7R906 rRNA adenine N(6)-methyltransferase n=1 Tax=K...  317     7e-104
+UniRef90_R9XBK9 rRNA adenine N(6)-methyltransferase n=1 Tax=Ashby...  254     9e-80 
+UniRef90_G8JVG3 rRNA adenine N(6)-methyltransferase n=1 Tax=Eremo...  254     2e-79 
+UniRef90_P87250 Mitochondrial transcription factor 1 n=1 Tax=Kluy...  252     7e-79 
+UniRef90_Q752L0 AFR564Wp n=1 Tax=Ashbya gossypii (strain ATCC 108...  251     3e-78 
+UniRef90_W0TBD6 rRNA adenine N(6)-methyltransferase n=1 Tax=Kluyv...  245     5e-76 
+UniRef90_A0A125RDT6 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  241     1e-74 
+UniRef90_A0A1E3P4Q6 rRNA adenine N(6)-methyltransferase n=1 Tax=W...  234     4e-72 
+UniRef90_A0A061B344 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  215     3e-64 
+UniRef90_A0A1E3QLJ2 rRNA adenine N(6)-methyltransferase (Fragment...  207     2e-61 
+UniRef90_K0KVK6 rRNA adenine N(6)-methyltransferase n=1 Tax=Wicke...  199     3e-59 
+UniRef90_I2GYH8 rRNA adenine N(6)-methyltransferase n=1 Tax=Tetra...  202     4e-59 
+UniRef90_A0A0H5C7X3 rRNA adenine N(6)-methyltransferase n=2 Tax=C...  200     2e-58 
+UniRef90_A0A1E5R5Y1 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  199     1e-57 
+UniRef90_A0A1E4U3B8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  194     5e-56 
+UniRef90_A0A0A8L2S3 rRNA adenine N(6)-methyltransferase n=1 Tax=K...  180     4e-52 
+UniRef90_G3BE99 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  184     7e-52 
+UniRef90_A0A1E3QYU2 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  182     2e-51 
+UniRef90_B9WAQ0 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  181     7e-51 
+UniRef90_A0A0J9XGD3 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  178     7e-50 
+UniRef90_M3JFC2 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  178     1e-49 
+UniRef90_F2QXR7 rRNA adenine N(6)-methyltransferase n=3 Tax=Komag...  176     3e-49 
+UniRef90_A0A1E3PRU5 rRNA adenine N(6)-methyltransferase n=1 Tax=N...  171     1e-46 
+UniRef90_A0A0V1Q200 Uncharacterized protein n=2 Tax=Debaryomyces ...  168     8e-46 
+UniRef90_A3LTE8 rRNA adenine N(6)-methyltransferase n=1 Tax=Schef...  167     1e-45 
+UniRef90_A5DPS0 rRNA adenine N(6)-methyltransferase n=2 Tax=Meyer...  167     2e-45 
+UniRef90_A0A1E4SF47 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  166     3e-45 
+UniRef90_A0A060TD45 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  161     1e-43 
+UniRef90_C5M6D7 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  162     2e-43 
+UniRef90_Q5ALP7 RNA polymerase specificity factor n=2 Tax=Candida...  162     2e-43 
+UniRef90_G3ALN1 rRNA adenine N(6)-methyltransferase n=1 Tax=Spath...  160     4e-43 
+UniRef90_A0A0L0NXK7 rRNA adenine N(6)-methyltransferase n=3 Tax=C...  160     4e-43 
+UniRef90_A5DUS5 rRNA adenine N(6)-methyltransferase n=1 Tax=Lodde...  160     9e-43 
+UniRef90_A0A1D2VI44 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  158     2e-42 
+UniRef90_G8BE62 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  155     7e-41 
+UniRef90_H8WYP0 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  154     9e-41 
+UniRef90_A0A167F9F3 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  152     1e-40 
+UniRef90_G8YQZ5 rRNA adenine N(6)-methyltransferase n=1 Tax=Pichi...  153     2e-40 
+UniRef90_A0A1A0GZ69 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  147     9e-38 
+UniRef90_A0A1E4RKI1 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  144     1e-36 
+UniRef90_A0A1E3QG27 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  143     2e-36 
+UniRef90_C4Y8N4 rRNA adenine N(6)-methyltransferase n=1 Tax=Clavi...  142     5e-36 
+UniRef90_A0A0W4ZFT6 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  139     5e-35 
+UniRef90_A0A1U7LP79 rRNA adenine N(6)-methyltransferase n=1 Tax=N...  137     3e-34 
+UniRef90_A0A1Y2FQN7 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  139     4e-34 
+UniRef90_A0A1L0E2V4 rRNA adenine N(6)-methyltransferase n=2 Tax=[...  137     4e-34 
+UniRef90_A0A0W4ZHF8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  136     4e-34 
+UniRef90_W6MV12 rRNA adenine N(6)-methyltransferase n=1 Tax=Kurai...  134     2e-33 
+UniRef90_A0A0E9N9M0 Uncharacterized protein n=3 Tax=Saitoella com...  140     2e-33 
+UniRef90_M7NM90 rRNA adenine N(6)-methyltransferase n=1 Tax=Pneum...  131     1e-32 
+UniRef90_A0A2P7YRF8 Uncharacterized protein n=1 Tax=[Candida] pse...  131     1e-32 
+UniRef90_A0A202G570 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  121     8e-29 
+UniRef90_A0A1E4TLE6 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  121     3e-28 
+UniRef90_Q9US51 Mitochondrial transcription factor 1 n=1 Tax=Schi...  114     1e-25 
+UniRef90_L0P7W0 rRNA adenine N(6)-methyltransferase n=1 Tax=Pneum...  107     2e-24 
+UniRef90_A0A1X2HVH7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  109     3e-24 
+UniRef90_A0A068RZW5 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  108     6e-24 
+UniRef90_A0A167L6X1 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  108     8e-24 
+UniRef90_A0A1X2IR11 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  107     3e-23 
+UniRef90_B6K3U8 rRNA adenine N(6)-methyltransferase n=1 Tax=Schiz...  105     2e-22 
+UniRef90_R4X6I0 rRNA adenine N(6)-methyltransferase n=1 Tax=Taphr...  106     3e-22 
+UniRef90_S9W0P2 rRNA adenine N(6)-methyltransferase n=1 Tax=Schiz...  103     9e-22 
+UniRef90_A0A077WSN7 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  104     2e-21 
+UniRef90_S2J3P3 rRNA adenine N(6)-methyltransferase n=3 Tax=Mucor...  101     3e-21 
+UniRef90_S9PUT3 rRNA adenine N(6)-methyltransferase n=1 Tax=Schiz...  101     6e-21 
+UniRef90_A0A1C7NES0 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  98.2    6e-20 
+UniRef90_A0A0C7BV86 rRNA adenine N(6)-methyltransferase n=6 Tax=R...  94.7    1e-18 
+UniRef90_A0A0B7N4N3 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  92.0    6e-18 
+UniRef90_A0A1X2IEB0 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  92.4    6e-18 
+UniRef90_B0D1C3 rRNA adenine N(6)-methyltransferase n=1 Tax=Lacca...  91.7    3e-17 
+UniRef90_A0A168NS54 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  90.1    5e-17 
+UniRef90_I4Y860 rRNA adenine N(6)-methyltransferase n=1 Tax=Walle...  90.1    7e-17 
+UniRef90_A0A165YR88 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  89.7    8e-17 
+UniRef90_UPI0004449E4B S-adenosyl-L-methionine-dependent methyltr...  89.0    3e-16 
+UniRef90_A0A1X6NCN8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  87.8    5e-16 
+UniRef90_G1X6M2 rRNA adenine N(6)-methyltransferase n=1 Tax=Arthr...  87.8    1e-15 
+UniRef90_A0A1M2VXP1 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  84.3    1e-15 
+UniRef90_S8DVS5 rRNA adenine N(6)-methyltransferase n=1 Tax=Fomit...  86.3    2e-15 
+UniRef90_A0A2G8SKZ8 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  85.9    2e-15 
+UniRef90_UPI00046222AF S-adenosyl-L-methionine-dependent methyltr...  85.9    2e-15 
+UniRef90_A0A0C9Y6S6 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  85.5    4e-15 
+UniRef90_A0A167JB54 rRNA adenine N(6)-methyltransferase (Fragment...  84.0    5e-15 
+UniRef90_J4GJ28 rRNA adenine N(6)-methyltransferase n=1 Tax=Fibro...  84.7    5e-15 
+UniRef90_A0A2H3JUU9 rRNA adenine N(6)-methyltransferase n=1 Tax=W...  84.3    7e-15 
+UniRef90_A0A1E4SXK3 rRNA adenine N(6)-methyltransferase n=1 Tax=[...  83.6    8e-15 
+UniRef90_A0A165BE25 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  84.0    9e-15 
+UniRef90_I1CUX0 rRNA adenine N(6)-methyltransferase n=1 Tax=Rhizo...  82.4    1e-14 
+UniRef90_S8A8F2 rRNA adenine N(6)-methyltransferase n=1 Tax=Dacty...  84.7    1e-14 
+UniRef90_A0A165A382 rRNA adenine N(6)-methyltransferase n=2 Tax=S...  83.6    1e-14 
+UniRef90_A0A067NCL5 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  83.6    2e-14 
+UniRef90_A0A0C3CNN1 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  84.0    2e-14 
+UniRef90_A0A165RQM7 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  82.8    2e-14 
+UniRef90_W4K5C5 rRNA adenine N(6)-methyltransferase (Fragment) n=...  82.4    2e-14 
+UniRef90_S7RR38 rRNA adenine N(6)-methyltransferase n=1 Tax=Gloeo...  82.0    3e-14 
+UniRef90_R9AIK9 rRNA adenine N(6)-methyltransferase n=1 Tax=Walle...  82.4    3e-14 
+UniRef90_A0A1Q3DZV4 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  81.3    9e-14 
+UniRef90_V5E419 rRNA adenine N(6)-methyltransferase n=1 Tax=Kalma...  81.3    1e-13 
+UniRef90_A0A1Y2IVT0 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  80.5    2e-13 
+UniRef90_UPI0004416A2D S-adenosyl-L-methionine-dependent methyltr...  80.1    2e-13 
+UniRef90_A0A1X2GHA7 rRNA adenine N(6)-methyltransferase (Fragment...  76.3    6e-13 
+UniRef90_A0A067PS86 rRNA adenine N(6)-methyltransferase n=1 Tax=J...  78.6    7e-13 
+UniRef90_A0A165V5J7 rRNA adenine N(6)-methyltransferase n=1 Tax=N...  77.0    1e-12 
+UniRef90_A0A177UFW3 rRNA adenine N(6)-methyltransferase n=2 Tax=T...  78.6    1e-12 
+UniRef90_UPI0004414732 S-adenosyl-L-methionine-dependent methyltr...  76.6    3e-12 
+UniRef90_A0A0C3M7C0 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  75.5    5e-12 
+UniRef90_I2FYQ1 rRNA adenine N(6)-methyltransferase n=2 Tax=Ustil...  76.6    5e-12 
+UniRef90_A0A067SVX2 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  76.3    5e-12 
+UniRef90_A0A194S4K9 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  75.9    6e-12 
+UniRef90_A0A1V2LIU2 rRNA adenine N(6)-methyltransferase n=2 Tax=P...  75.5    7e-12 
+UniRef90_A0A2A9NWK8 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  75.5    9e-12 
+UniRef90_A0A292Q0N2 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  75.9    1e-11 
+UniRef90_W1QC08 rRNA adenine N(6)-methyltransferase n=2 Tax=Ogata...  74.3    1e-11 
+UniRef90_R9PCW5 rRNA adenine N(6)-methyltransferase n=1 Tax=Pseud...  75.1    2e-11 
+UniRef90_A0A286UGG8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  73.9    2e-11 
+UniRef90_A0A166X8N8 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  73.9    3e-11 
+UniRef90_A0A0D0DTE3 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  73.2    3e-11 
+UniRef90_A0A0D2NU38 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  73.6    6e-11 
+UniRef90_V2XDY4 rRNA adenine N(6)-methyltransferase n=2 Tax=Monil...  73.2    6e-11 
+UniRef90_A0A1Y2G395 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  72.8    6e-11 
+UniRef90_A0A1B7NH06 rRNA adenine N(6)-methyltransferase n=2 Tax=R...  72.8    7e-11 
+UniRef90_A0A0C3B4A7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  72.4    9e-11 
+UniRef90_K5UWB4 rRNA adenine N(6)-methyltransferase n=1 Tax=Phane...  72.4    1e-10 
+UniRef90_K5XYV1 rRNA adenine N(6)-methyltransferase n=2 Tax=Agari...  71.6    2e-10 
+UniRef90_A0A1C7LUC6 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  70.9    2e-10 
+UniRef90_A0A177UYN9 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  71.2    3e-10 
+UniRef90_A0A0P1BDY8 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  70.9    3e-10 
+UniRef90_E7A2N4 rRNA adenine N(6)-methyltransferase n=2 Tax=Spori...  71.2    3e-10 
+UniRef90_A0A127Z3W8 rRNA adenine N(6)-methyltransferase n=2 Tax=S...  70.9    4e-10 
+UniRef90_W7HQT9 rRNA adenine N(6)-methyltransferase n=1 Tax=Drech...  70.9    5e-10 
+UniRef90_Q6CG06 rRNA adenine N(6)-methyltransferase n=2 Tax=Yarro...  70.5    5e-10 
+UniRef90_A0A0D1E2C7 rRNA adenine N(6)-methyltransferase n=1 Tax=U...  70.5    5e-10 
+UniRef90_G4T9N8 rRNA adenine N(6)-methyltransferase n=1 Tax=Seren...  69.7    7e-10 
+UniRef90_A0A0H2S1Z0 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  69.3    9e-10 
+UniRef90_A0A074RYX1 rRNA adenine N(6)-methyltransferase n=2 Tax=R...  69.3    1e-09 
+UniRef90_A0A015J0S0 rRNA adenine N(6)-methyltransferase n=6 Tax=R...  68.2    1e-09 
+UniRef90_A0A0C7CII5 Putative 3-isopropylmalate dehydratase n=1 Ta...  69.3    1e-09 
+UniRef90_A0A284QLB0 rRNA adenine N(6)-methyltransferase n=3 Tax=A...  68.6    2e-09 
+UniRef90_A8N7I4 rRNA adenine N(6)-methyltransferase n=1 Tax=Copri...  68.6    2e-09 
+UniRef90_F8NUC9 rRNA adenine N(6)-methyltransferase n=2 Tax=Serpu...  68.2    2e-09 
+UniRef90_M5FNF6 rRNA adenine N(6)-methyltransferase (Fragment) n=...  67.0    4e-09 
+UniRef90_D5GDV9 rRNA adenine N(6)-methyltransferase n=1 Tax=Tuber...  67.8    4e-09 
+UniRef90_A0A0D7BIT3 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  67.0    6e-09 
+UniRef90_A0A0C3NZN0 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  66.6    6e-09 
+UniRef90_A0A0D0BPN7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  66.6    7e-09 
+UniRef90_A0A109FKV4 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  66.6    8e-09 
+UniRef90_A0A0C2XBT9 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  65.1    2e-08 
+UniRef90_A0A1E3NIJ1 Uncharacterized protein n=1 Tax=Pichia membra...  65.1    2e-08 
+UniRef90_C5GH65 rRNA adenine N(6)-methyltransferase n=7 Tax=Ajell...  65.5    2e-08 
+UniRef90_A8Q296 rRNA adenine N(6)-methyltransferase n=1 Tax=Malas...  65.1    2e-08 
+UniRef90_UPI000455D98E S-adenosyl-L-methionine-dependent methyltr...  65.1    3e-08 
+UniRef90_A0A0M8MSR4 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  65.1    3e-08 
+UniRef90_A0A151VZE4 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  64.7    3e-08 
+UniRef90_A0A061H271 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  64.7    4e-08 
+UniRef90_A0A0C3KKA5 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  64.3    4e-08 
+UniRef90_A0A081CDA9 rRNA adenine N(6)-methyltransferase n=3 Tax=M...  64.3    5e-08 
+UniRef90_A0A1Y1X7Q8 rRNA adenine N(6)-methyltransferase (Fragment...  62.8    1e-07 
+UniRef90_A0A2B7X3B5 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  63.2    1e-07 
+UniRef90_A6R3Z3 rRNA adenine N(6)-methyltransferase n=4 Tax=Ajell...  62.8    2e-07 
+UniRef90_G7E8Q6 Uncharacterized protein n=1 Tax=Mixia osmundae (s...  62.4    2e-07 
+UniRef90_A0A165CI27 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  61.6    2e-07 
+UniRef90_A0A0C3A9M0 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  61.2    5e-07 
+UniRef90_A0A0C3BNN8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  60.8    6e-07 
+UniRef90_A0A2B7YIC7 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  61.2    6e-07 
+UniRef90_M5ENE9 rRNA adenine N(6)-methyltransferase n=2 Tax=Malas...  60.5    7e-07 
+UniRef90_A0A0J0XUI0 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  60.8    7e-07 
+UniRef90_A0A137QUD2 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  60.5    8e-07 
+UniRef90_A0A077R4X9 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  60.8    8e-07 
+UniRef90_U4LW74 rRNA adenine N(6)-methyltransferase n=1 Tax=Pyron...  60.5    9e-07 
+UniRef90_A0A0L6WMF4 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  59.7    1e-06 
+UniRef90_A0A067NK86 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  59.3    2e-06 
+UniRef90_A0A2N1JC30 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  59.3    2e-06 
+UniRef90_A0A197JG56 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  58.9    2e-06 
+UniRef90_A0A0G2JB88 rRNA adenine N(6)-methyltransferase n=2 Tax=E...  59.3    2e-06 
+UniRef90_A0A0F4YRS5 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  59.3    2e-06 
+UniRef90_A0A0D0A7H4 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  58.9    3e-06 
+UniRef90_A0A2I1EUX2 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  58.2    3e-06 
+UniRef90_A0A060SVE4 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  56.2    3e-06 
+UniRef90_UPI00044096AE S-adenosyl-L-methionine-dependent methyltr...  58.2    3e-06 
+UniRef90_A0A162IDJ8 Uncharacterized protein n=1 Tax=Ascosphaera a...  58.2    6e-06 
+UniRef90_A0A1V6YTK2 Uncharacterized protein n=1 Tax=Penicillium n...  57.4    1e-05 
+UniRef90_UPI00073D244F mitochondrial dimethyladenosine transferas...  56.6    1e-05 
+UniRef90_A0A1L9SN01 Uncharacterized protein n=1 Tax=Penicilliopsi...  56.6    2e-05 
+UniRef90_A0A0C9Q9U8 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  56.2    2e-05 
+UniRef90_A0A0K6GGX5 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  56.2    2e-05 
+UniRef90_A0A177U1G4 rRNA adenine N(6)-methyltransferase (Fragment...  55.5    2e-05 
+UniRef90_A0A0F2M464 rRNA adenine N(6)-methyltransferase n=3 Tax=S...  56.2    3e-05 
+UniRef90_A0A0K6FLG2 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  55.8    3e-05 
+UniRef90_A0A066VU09 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  55.5    3e-05 
+UniRef90_A0A1B7Y0P2 rRNA adenine N(6)-methyltransferase n=2 Tax=C...  55.8    3e-05 
+UniRef90_A0A1B7P7I6 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  55.1    5e-05 
+UniRef90_C1HC79 Uncharacterized protein n=4 Tax=Paracoccidioides ...  55.1    5e-05 
+UniRef90_A0A0K3CQG8 rRNA adenine N(6)-methyltransferase n=3 Tax=R...  54.7    5e-05 
+UniRef90_M5C7C2 rRNA adenine N(6)-methyltransferase n=1 Tax=Thana...  53.1    6e-05 
+UniRef90_A0A226F5V7 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  54.3    7e-05 
+UniRef90_A0A1W2TQX5 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  54.7    8e-05 
+UniRef90_A0A1J9PG57 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  54.3    9e-05 
+UniRef90_A0A2C5ZDG6 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  54.3    1e-04 
+UniRef90_A0A0D7AMX2 rRNA adenine N(6)-methyltransferase (Fragment...  53.5    1e-04 
+UniRef90_A0A1D1VNZ5 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  53.5    1e-04 
+UniRef90_A0A1W0WCU2 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  53.5    1e-04 
+UniRef90_A0A0L0T6X9 rRNA adenine N(6)-methyltransferase n=2 Tax=A...  53.5    1e-04 
+UniRef90_A0A2B7XT81 Uncharacterized protein n=1 Tax=Helicocarpus ...  53.9    1e-04 
+UniRef90_UPI000771DEC0 dimethyladenosine transferase 1, mitochond...  53.1    1e-04 
+UniRef90_M5CA69 rRNA adenine N(6)-methyltransferase n=1 Tax=Thana...  53.1    2e-04 
+UniRef90_A0A0B7FV44 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  53.1    2e-04 
+UniRef90_A0A146IEM8 Glycoside hydrolase family 63 protein n=1 Tax...  53.5    2e-04 
+UniRef90_D3BVF6 rRNA adenine N(6)-methyltransferase n=1 Tax=Polys...  53.1    2e-04 
+UniRef90_A0A178F5A3 Uncharacterized protein n=5 Tax=Trichophyton ...  52.8    3e-04 
+UniRef90_E4V002 Uncharacterized protein n=1 Tax=Arthroderma gypse...  52.8    3e-04 
+UniRef90_A0A154PPD3 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  52.0    4e-04 
+UniRef90_D8QCK8 rRNA adenine N(6)-methyltransferase n=1 Tax=Schiz...  52.8    4e-04 
+UniRef90_UPI00062688E5 dimethyladenosine transferase 1, mitochond...  52.0    4e-04 
+UniRef90_UPI0005CE8F62 dimethyladenosine transferase 1, mitochond...  52.0    4e-04 
+UniRef90_UPI0009953B95 dimethyladenosine transferase 1, mitochond...  51.6    6e-04 
+UniRef90_UPI000718AD72 mitochondrial dimethyladenosine transferas...  51.2    6e-04 
+UniRef90_A0A165IBR2 rRNA adenine N(6)-methyltransferase n=1 Tax=X...  51.6    6e-04 
+UniRef90_E2A745 rRNA adenine N(6)-methyltransferase n=1 Tax=Campo...  51.2    7e-04 
+UniRef90_A0A1V6TU46 Uncharacterized protein n=1 Tax=Penicillium s...  51.6    7e-04 
+UniRef90_A0A0D6EL46 rRNA adenine N(6)-methyltransferase (Fragment...  51.2    7e-04 
+UniRef90_A0A0J7NU55 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  51.2    8e-04 
+UniRef90_A0A167ZAP4 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  51.2    8e-04 
+UniRef90_UPI0007384A6D dimethyladenosine transferase 1, mitochond...  50.8    8e-04 
+UniRef90_UPI0006232CAE mitochondrial dimethyladenosine transferas...  50.8    9e-04 
+UniRef90_A0A163GU28 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  51.2    0.001 
+UniRef90_A0A194V5G7 rRNA adenine N(6)-methyltransferase n=2 Tax=V...  51.2    0.001 
+UniRef90_A0A2K1R2I8 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  50.8    0.001 
+UniRef90_A0A167QNB1 rRNA adenine N(6)-methyltransferase n=1 Tax=I...  50.8    0.001 
+UniRef90_UPI00083C1E55 dimethyladenosine transferase 1, mitochond...  50.1    0.001 
+UniRef90_G2R6N7 Uncharacterized protein n=1 Tax=Thielavia terrest...  50.8    0.001 
+UniRef90_A0A238FHH8 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  50.4    0.002 
+UniRef90_N1J4N3 Uncharacterized protein n=1 Tax=Blumeria graminis...  50.1    0.002 
+UniRef90_C5FTK3 Uncharacterized protein n=1 Tax=Arthroderma otae ...  49.7    0.003 
+UniRef90_A0A0C3GYS4 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  49.7    0.003 
+UniRef90_D4D1F2 Uncharacterized protein n=5 Tax=Trichophyton TaxI...  49.7    0.003 
+UniRef90_UPI0006451FBE hypothetical protein n=1 Tax=Acytostelium ...  49.3    0.003 
+UniRef90_A0A162MQQ9 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  49.7    0.003 
+UniRef90_A0A135V9M3 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  49.3    0.004 
+UniRef90_A0A1Q2YGG7 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  48.9    0.004 
+UniRef90_A0A166P8P5 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  49.3    0.004 
+UniRef90_A0A179HQF0 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  49.3    0.005 
+UniRef90_A0A2N3MXM7 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  48.9    0.005 
+UniRef90_A0A2G8L9U7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  48.1    0.005 
+UniRef90_A0A162KFX2 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  48.9    0.006 
+UniRef90_A0A166MNP5 Uncharacterized protein n=2 Tax=Colletotrichu...  48.9    0.006 
+UniRef90_A0A1V6PJS4 Uncharacterized protein n=1 Tax=Penicillium d...  48.5    0.006 
+UniRef90_A0A175VSM1 Protein SERAC1 n=1 Tax=Madurella mycetomatis ...  48.9    0.006 
+UniRef90_A0A1Y1UP69 rRNA adenine N(6)-methyltransferase n=1 Tax=K...  48.5    0.007 
+UniRef90_A0A010RUR4 rRNA adenine N(6)-methyltransferase n=3 Tax=C...  48.5    0.007 
+UniRef90_G3J485 rRNA adenine N(6)-methyltransferase n=2 Tax=Cordy...  48.5    0.007 
+UniRef90_M2T298 rRNA adenine N(6)-methyltransferase n=2 Tax=Bipol...  48.5    0.007 
+UniRef90_A0A0B2WWU5 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  48.1    0.008 
+UniRef90_M2UE14 rRNA adenine N(6)-methyltransferase n=2 Tax=Cochl...  48.1    0.009 
+UniRef90_A0A1Y2T7V3 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  48.1    0.009 
+UniRef90_L2FLI9 Uncharacterized protein n=2 Tax=Colletotrichum gl...  47.8    0.010 
+UniRef90_U5HEX9 rRNA adenine N(6)-methyltransferase n=1 Tax=Micro...  47.8    0.011 
+UniRef90_A0A2A9PKC5 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  47.8    0.012 
+UniRef90_A0A136IYN6 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  47.8    0.013 
+UniRef90_A0A1Y2WQ14 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  47.4    0.014 
+UniRef90_A0A1J7IHG3 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  47.4    0.015 
+UniRef90_E3S8M5 rRNA adenine N(6)-methyltransferase n=2 Tax=Pyren...  47.4    0.015 
+UniRef90_A0A066XQQ8 Uncharacterized protein (Fragment) n=1 Tax=Co...  47.4    0.016 
+UniRef90_E9IE08 rRNA adenine N(6)-methyltransferase (Fragment) n=...  47.0    0.016 
+UniRef90_A0A2J6RU02 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  47.4    0.017 
+UniRef90_UPI00063F254C dimethyladenosine transferase 1, mitochond...  46.6    0.019 
+UniRef90_UPI00084035E1 dimethyladenosine transferase 1, mitochond...  46.6    0.020 
+UniRef90_C5PB76 Uncharacterized protein n=6 Tax=Coccidioides TaxI...  47.0    0.020 
+UniRef90_A0A0A2LFD8 Uncharacterized protein n=1 Tax=Penicillium i...  47.0    0.022 
+UniRef90_A0A1Y2W0Q9 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  47.0    0.022 
+UniRef90_I2JVW2 Mitochondrial replication n=1 Tax=Brettanomyces b...  43.5    0.025 
+UniRef90_A0A151X248 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  46.2    0.029 
+UniRef90_A0A091DQS8 rRNA adenine N(6)-methyltransferase n=3 Tax=H...  46.2    0.031 
+UniRef90_A0A183W6M5 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  45.4    0.031 
+UniRef90_J3NMN9 rRNA adenine N(6)-methyltransferase n=1 Tax=Gaeum...  46.6    0.032 
+UniRef90_UPI0005F05A43 dimethyladenosine transferase 1, mitochond...  45.8    0.035 
+UniRef90_R7T9D9 rRNA adenine N(6)-methyltransferase n=1 Tax=Capit...  45.8    0.036 
+UniRef90_A0A179I3M1 rRNA adenine N(6)-methyltransferase (Fragment...  45.8    0.038 
+UniRef90_A0A1L7XV24 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  46.2    0.040 
+UniRef90_A0A0D2GR28 Rhinocladiella mackenziei CBS 650.93 unplaced...  45.8    0.044 
+UniRef90_A0A0D2KMA0 Uncharacterized protein n=1 Tax=Hypholoma sub...  43.5    0.048 
+UniRef90_Q1A705 Dimethyladenosine transferase 1, mitochondrial n=...  45.4    0.050 
+UniRef90_A0A0J5PUV8 Uncharacterized protein n=4 Tax=Neosartorya f...  45.8    0.051 
+UniRef90_UPI0005D3CFF6 dimethyladenosine transferase 1, mitochond...  45.4    0.054 
+UniRef90_J4KPH1 rRNA adenine N(6)-methyltransferase n=4 Tax=Cordy...  45.4    0.062 
+UniRef90_UPI0006C95FFF dimethyladenosine transferase 1, mitochond...  45.1    0.063 
+UniRef90_A0A179FMA1 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  45.4    0.065 
+UniRef90_A0A194XMK3 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  45.4    0.065 
+UniRef90_U1G785 Uncharacterized protein n=1 Tax=Endocarpon pusill...  45.4    0.067 
+UniRef90_A0A1Y2LU38 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  45.4    0.069 
+UniRef90_A0A2C9JQC7 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  45.1    0.072 
+UniRef90_A0A063CAF1 rRNA adenine N(6)-methyltransferase n=2 Tax=U...  45.4    0.072 
+UniRef90_M1VUA5 Probable VPS4-vacuolar sorting protein n=1 Tax=Cl...  45.4    0.073 
+UniRef90_E9DR35 rRNA adenine N(6)-methyltransferase n=6 Tax=Metar...  45.1    0.075 
+UniRef90_A0A2H8TQG3 rRNA adenine N(6)-methyltransferase n=3 Tax=A...  44.7    0.076 
+UniRef90_UPI000711E2DF dimethyladenosine transferase 1, mitochond...  44.7    0.081 
+UniRef90_A0A0L7RE23 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  44.7    0.083 
+UniRef90_A0A183MA38 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  44.3    0.084 
+UniRef90_E5A3Z0 rRNA adenine N(6)-methyltransferase n=1 Tax=Lepto...  45.1    0.085 
+UniRef90_A0A0C4E9U6 Uncharacterized protein n=1 Tax=Magnaporthiop...  45.1    0.085 
+UniRef90_A0A1V6TEY1 rRNA adenine N(6)-methyltransferase n=3 Tax=P...  45.1    0.087 
+UniRef90_A0A0L0N5T1 rRNA adenine N(6)-methyltransferase n=2 Tax=T...  45.1    0.093 
+UniRef90_A0A0C7CIH3 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  42.4    0.095 
+UniRef90_UPI000258EA1C dimethyladenosine transferase 1, mitochond...  44.7    0.095 
+UniRef90_G4VH16 rRNA adenine N(6)-methyltransferase n=1 Tax=Schis...  44.3    0.11  
+UniRef90_N4V1L3 Uncharacterized protein n=1 Tax=Colletotrichum or...  44.7    0.11  
+UniRef90_A0A171AGT9 rRNA adenine N(6)-methyltransferase (Fragment...  44.3    0.11  
+UniRef90_X1WTM3 rRNA adenine N(6)-methyltransferase n=1 Tax=Acyrt...  43.5    0.12  
+UniRef90_I1S2H1 rRNA adenine N(6)-methyltransferase n=3 Tax=Fusar...  44.7    0.12  
+UniRef90_A0A291L1S0 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  44.3    0.12  
+UniRef90_A0A1Y2HNJ5 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  44.3    0.12  
+UniRef90_F7VVI6 rRNA adenine N(6)-methyltransferase n=1 Tax=Sorda...  44.7    0.12  
+UniRef90_A0A0P7BKP7 rRNA adenine N(6)-methyltransferase n=1 Tax=N...  44.7    0.12  
+UniRef90_E3QZH2 Uncharacterized protein n=1 Tax=Colletotrichum gr...  44.7    0.12  
+UniRef90_E0W102 rRNA adenine N(6)-methyltransferase n=1 Tax=Pedic...  44.3    0.13  
+UniRef90_C4JZN8 rRNA adenine N(6)-methyltransferase n=1 Tax=Uncin...  44.3    0.13  
+UniRef90_A0A1B8APL0 rRNA adenine N(6)-methyltransferase n=2 Tax=F...  44.3    0.14  
+UniRef90_A0A0L1I2D7 Uncharacterized protein n=1 Tax=Stemphylium l...  44.3    0.16  
+UniRef90_A0A183MDD9 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  42.4    0.16  
+UniRef90_A0A0B1P7V2 Uncharacterized protein n=1 Tax=Uncinula neca...  44.3    0.17  
+UniRef90_A0A0L1JE13 Uncharacterized protein n=2 Tax=Aspergillus T...  43.9    0.17  
+UniRef90_H2YRF1 rRNA adenine N(6)-methyltransferase n=1 Tax=Ciona...  43.9    0.17  
+UniRef90_A0A094ZEZ1 rRNA adenine N(6)-methyltransferase (Fragment...  43.9    0.18  
+UniRef90_W4ZKF6 rRNA adenine N(6)-methyltransferase n=1 Tax=Stron...  43.5    0.19  
+UniRef90_G5BQ74 rRNA adenine N(6)-methyltransferase n=1 Tax=Heter...  43.9    0.19  
+UniRef90_UPI000572E119 mitochondrial dimethyladenosine transferas...  43.1    0.19  
+UniRef90_UPI00021A634C dimethyladenosine transferase 1, mitochond...  43.5    0.20  
+UniRef90_UPI000643EF46 dimethyladenosine transferase 1, mitochond...  43.5    0.20  
+UniRef90_A0A2P6NBR1 Uncharacterized protein n=1 Tax=Planoprotoste...  43.9    0.20  
+UniRef90_A0A086T9K0 Uncharacterized protein n=1 Tax=Acremonium ch...  43.9    0.22  
+UniRef90_UPI0004571BB6 dimethyladenosine transferase 1, mitochond...  43.1    0.23  
+UniRef90_UPI0009A353F8 dimethyladenosine transferase 1, mitochond...  43.1    0.23  
+UniRef90_Q2TBQ0-2 Isoform 2 of Mitochondrial dimethyladenosine tr...  42.7    0.23  
+UniRef90_A0A179A029 Uncharacterized protein n=1 Tax=Fonsecaea ere...  43.5    0.23  
+UniRef90_A0A0M9VS51 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  43.5    0.24  
+UniRef90_V5G8G6 Uncharacterized protein n=1 Tax=Byssochlamys spec...  43.5    0.24  
+UniRef90_Q2HHE1 Uncharacterized protein n=1 Tax=Chaetomium globos...  43.9    0.25  
+UniRef90_E2B578 rRNA adenine N(6)-methyltransferase n=2 Tax=Harpe...  43.1    0.25  
+UniRef90_A0A224XXN1 rRNA adenine N(6)-methyltransferase (Fragment...  42.4    0.26  
+UniRef90_Q2TBQ0 Mitochondrial dimethyladenosine transferase 1 n=1...  43.1    0.27  
+UniRef90_UPI00093EA6F5 dimethyladenosine transferase 1, mitochond...  43.1    0.28  
+UniRef90_W6YUT8 rRNA adenine N(6)-methyltransferase n=2 Tax=Bipol...  43.5    0.28  
+UniRef90_A0A084FUV7 Uncharacterized protein n=1 Tax=Scedosporium ...  43.5    0.29  
+UniRef90_A0A1V1TUX5 rRNA adenine N(6)-methyltransferase n=1 Tax=f...  43.5    0.29  
+UniRef90_A0A177W8J3 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  42.4    0.30  
+UniRef90_UPI000B97E81C dimethyladenosine transferase 1, mitochond...  43.1    0.30  
+UniRef90_A0A1G4APL8 Uncharacterized protein n=1 Tax=Colletotrichu...  43.5    0.30  
+UniRef90_F4NUM6 rRNA adenine N(6)-methyltransferase n=1 Tax=Batra...  42.7    0.30  
+UniRef90_G0RUD6 rRNA adenine N(6)-methyltransferase n=3 Tax=Trich...  43.1    0.32  
+UniRef90_A0A088AQJ2 rRNA adenine N(6)-methyltransferase n=3 Tax=A...  42.7    0.32  
+UniRef90_A0A0Q3PGA9 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  42.7    0.32  
+UniRef90_A0A0P6K794 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  43.1    0.33  
+UniRef90_G2WV07 rRNA adenine N(6)-methyltransferase n=2 Tax=Verti...  43.1    0.35  
+UniRef90_A0A0G4KD56 Uncharacterized protein n=1 Tax=Verticillium ...  43.1    0.38  
+UniRef90_B3RWS2 rRNA adenine N(6)-methyltransferase n=1 Tax=Trich...  42.7    0.38  
+UniRef90_A0A0M9EZK2 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  43.1    0.38  
+UniRef90_UPI0004CCE81D dimethyladenosine transferase 1, mitochond...  42.7    0.40  
+UniRef90_A0A2I0MVD8 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  42.4    0.44  
+UniRef90_A0A151GUL0 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  42.7    0.47  
+UniRef90_T1HMC6 rRNA adenine N(6)-methyltransferase n=1 Tax=Rhodn...  42.4    0.48  
+UniRef90_L7ITB6 rRNA adenine N(6)-methyltransferase n=3 Tax=Magna...  42.7    0.49  
+UniRef90_A0A091QSU1 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  42.4    0.50  
+UniRef90_UPI000698F079 dimethyladenosine transferase 1, mitochond...  42.4    0.53  
+UniRef90_UPI00067CCE8C dimethyladenosine transferase 1, mitochond...  42.0    0.56  
+UniRef90_A0A250XYW0 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  42.0    0.62  
+UniRef90_A0A2P5HM07 Uncharacterized protein n=1 Tax=Diaporthe hel...  42.4    0.62  
+UniRef90_A1CJZ1 Uncharacterized protein n=1 Tax=Aspergillus clava...  42.4    0.64  
+UniRef90_A0A286XY21 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  42.0    0.64  
+UniRef90_A0A0G4M444 Uncharacterized protein n=1 Tax=Verticillium ...  42.4    0.67  
+UniRef90_A0A0R4IU10 rRNA adenine N(6)-methyltransferase n=3 Tax=D...  42.0    0.68  
+UniRef90_A0A0D1ZQ93 Uncharacterized protein n=1 Tax=Exophiala mes...  42.4    0.68  
+UniRef90_UPI000C777406 dimethyladenosine transferase 1, mitochond...  41.6    0.69  
+UniRef90_G2QI80 Uncharacterized protein n=1 Tax=Myceliophthora th...  42.4    0.71  
+UniRef90_C9SDI0 rRNA adenine N(6)-methyltransferase n=1 Tax=Verti...  42.0    0.76  
+UniRef90_Q5B8X8 Uncharacterized protein n=2 Tax=Emericella nidula...  42.0    0.77  
+UniRef90_C3ZB31 Uncharacterized protein n=1 Tax=Branchiostoma flo...  42.4    0.77  
+UniRef90_A0A2I0MVE0 rRNA adenine N(6)-methyltransferase n=2 Tax=N...  41.6    0.78  
+UniRef90_A0A0K8RW85 rRNA adenine N(6)-methyltransferase n=8 Tax=C...  41.6    0.79  
+UniRef90_F1QQ24 rRNA adenine N(6)-methyltransferase n=2 Tax=Danio...  41.2    0.81  
+UniRef90_A0A0D2GCZ0 rRNA adenine N(6)-methyltransferase n=3 Tax=F...  42.0    0.81  
+UniRef90_G9MPF2 rRNA adenine N(6)-methyltransferase (Fragment) n=...  42.0    0.82  
+UniRef90_A0A091EZM0 rRNA adenine N(6)-methyltransferase n=13 Tax=...  41.6    0.83  
+UniRef90_A0A0G2FQN1 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  42.0    0.84  
+UniRef90_K1XY33 rRNA adenine N(6)-methyltransferase n=1 Tax=Marss...  42.0    0.84  
+UniRef90_A0A2E2ZTE5 Peptidase M61 n=1 Tax=Sphingomonas sp. TaxID=...  42.0    0.91  
+UniRef90_UPI0003510009 dimethyladenosine transferase 1, mitochond...  41.2    0.92  
+UniRef90_A0A2C5Z5X4 Uncharacterized protein n=1 Tax=Ophiocordycep...  42.0    0.94  
+UniRef90_T5AP89 rRNA adenine N(6)-methyltransferase n=1 Tax=Ophio...  41.6    0.95  
+UniRef90_A0A094BKY6 Uncharacterized protein n=1 Tax=Pseudogymnoas...  41.6    1.0   
+UniRef90_UPI00035DF666 methyltransferase domain-containing protei...  41.2    1.0   
+UniRef90_A0A2A4J8C7 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  41.2    1.0   
+UniRef90_A0A093CEG5 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  41.2    1.0   
+UniRef90_S4RUG9 rRNA adenine N(6)-methyltransferase n=1 Tax=Petro...  40.8    1.0   
+UniRef90_A0A2J6PL04 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  41.6    1.1   
+UniRef90_I3LVN4 rRNA adenine N(6)-methyltransferase n=3 Tax=Sus s...  41.2    1.1   
+UniRef90_F8MUE9 Uncharacterized protein n=5 Tax=Neurospora TaxID=...  42.0    1.1   
+UniRef90_A0A2C5ZC04 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  41.6    1.1   
+UniRef90_A0A068YGF8 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  40.8    1.1   
+UniRef90_A0A074WYN8 S-adenosyl-L-methionine-dependent methyltrans...  41.6    1.2   
+UniRef90_K7JCA6 rRNA adenine N(6)-methyltransferase n=2 Tax=Ptero...  40.8    1.2   
+UniRef90_A0A151Z360 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  41.2    1.2   
+UniRef90_A7SNR6 rRNA adenine N(6)-methyltransferase n=1 Tax=Nemat...  41.2    1.2   
+UniRef90_A0A2D3VLK9 Uncharacterized protein n=1 Tax=Ramularia col...  41.2    1.3   
+UniRef90_A0A2G7FV95 Uncharacterized protein n=1 Tax=Aspergillus a...  41.2    1.3   
+UniRef90_A0A178DSL6 Uncharacterized protein n=1 Tax=Pyrenochaeta ...  41.2    1.3   
+UniRef90_Q5D8X3 rRNA adenine N(6)-methyltransferase n=1 Tax=Schis...  40.8    1.4   
+UniRef90_A0A1Y2EBJ7 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  41.2    1.4   
+UniRef90_J4UFA3 Uncharacterized protein n=2 Tax=Trichosporon asah...  41.2    1.4   
+UniRef90_UPI0006C9CD66 dimethyladenosine transferase 1, mitochond...  40.8    1.4   
+UniRef90_A0A1Y2GJE3 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  40.8    1.5   
+UniRef90_U3KDD7 rRNA adenine N(6)-methyltransferase n=14 Tax=Neog...  40.8    1.5   
+UniRef90_E2AGZ7 Transposable element Tc3 transposase (Fragment) n...  39.7    1.5   
+UniRef90_W6UR88 rRNA adenine N(6)-methyltransferase n=2 Tax=Echin...  41.2    1.5   
+UniRef90_Q2UQ44 Uncharacterized protein n=6 Tax=Aspergillus TaxID...  41.2    1.5   
+UniRef90_A0A178ATJ8 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  41.2    1.6   
+UniRef90_UPI0008113221 mitochondrial dimethyladenosine transferas...  40.8    1.6   
+UniRef90_A0A0F9ZDZ1 rRNA adenine N(6)-methyltransferase n=3 Tax=T...  41.2    1.6   
+UniRef90_UPI000CD63137 dimethyladenosine transferase 1, mitochond...  40.8    1.6   
+UniRef90_A0A135LAM4 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  41.2    1.6   
+UniRef90_A0A2J6TXB5 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  41.2    1.7   
+UniRef90_UPI0007D93588 dimethyladenosine transferase 1, mitochond...  40.4    1.7   
+UniRef90_W9X0H9 rRNA adenine N(6)-methyltransferase n=2 Tax=Clado...  40.8    1.8   
+UniRef90_A0A0R3X8Y6 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  40.8    1.8   
+UniRef90_A0A0D2AS22 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  40.8    1.8   
+UniRef90_H3AXD8 rRNA adenine N(6)-methyltransferase n=1 Tax=Latim...  40.4    1.8   
+UniRef90_L8WVW9 RrnaAD domain-containing protein n=1 Tax=Thanatep...  40.8    1.8   
+UniRef90_A0A158NG55 rRNA adenine N(6)-methyltransferase n=7 Tax=A...  40.4    1.9   
+UniRef90_A0A058Z8K1 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  40.8    1.9   
+UniRef90_A0A151INV7 rRNA adenine N(6)-methyltransferase (Fragment...  40.4    1.9   
+UniRef90_A0A137P993 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  40.4    1.9   
+UniRef90_V9L6B8 rRNA adenine N(6)-methyltransferase (Fragment) n=...  40.4    2.0   
+UniRef90_G0SB69 rRNA adenine N(6)-methyltransferase n=1 Tax=Chaet...  40.8    2.1   
+UniRef90_A0A1W4XU91 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  40.0    2.3   
+UniRef90_UPI000952E39B dimethyladenosine transferase 1, mitochond...  40.0    2.3   
+UniRef90_UPI0005F3CAA8 dimethyladenosine transferase 1, mitochond...  40.0    2.5   
+UniRef90_A0A0A1TS07 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  40.4    2.5   
+UniRef90_UPI0007BAA01D LOW QUALITY PROTEIN: dimethyladenosine tra...  39.7    2.5   
+UniRef90_UPI0003C838EF dimethyladenosine transferase 1, mitochond...  40.0    2.5   
+UniRef90_A0A212C7I7 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  40.0    2.5   
+UniRef90_A0A2C5XXR5 Uncharacterized protein n=1 Tax=Ophiocordycep...  40.4    2.5   
+UniRef90_A0A099Z1B5 rRNA adenine N(6)-methyltransferase (Fragment...  40.0    2.6   
+UniRef90_A0A1S3H4I0 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  40.0    2.6   
+UniRef90_A0A1U7QH46 rRNA adenine N(6)-methyltransferase n=2 Tax=M...  40.0    2.7   
+UniRef90_A7F114 Uncharacterized protein n=2 Tax=Sclerotinia scler...  40.4    2.7   
+UniRef90_UPI000C6E3282 dimethyladenosine transferase 1, mitochond...  40.0    2.7   
+UniRef90_A0A084R309 rRNA adenine N(6)-methyltransferase n=2 Tax=S...  40.4    2.8   
+UniRef90_E2IFS0 Putative rRNA methyltransferase (Fragment) n=4 Ta...  37.7    2.9   
+UniRef90_M7C133 rRNA adenine N(6)-methyltransferase n=1 Tax=Chelo...  39.7    2.9   
+UniRef90_A0A093LSU1 rRNA adenine N(6)-methyltransferase (Fragment...  39.3    2.9   
+UniRef90_A0A232LMD5 Uncharacterized protein n=1 Tax=Elaphomyces g...  40.0    3.0   
+UniRef90_A0A074XB65 S-adenosyl-L-methionine-dependent methyltrans...  40.0    3.0   
+UniRef90_A0A0R3UG21 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  40.0    3.0   
+UniRef90_A0A1R3S0B8 Uncharacterized protein n=1 Tax=Aspergillus c...  40.0    3.2   
+UniRef90_E2RQC3 rRNA adenine N(6)-methyltransferase n=15 Tax=Carn...  39.7    3.2   
+UniRef90_W5LGA9 rRNA adenine N(6)-methyltransferase n=1 Tax=Astya...  39.3    3.5   
+UniRef90_A0A1B8GCF7 rRNA adenine N(6)-methyltransferase n=7 Tax=P...  40.0    3.5   
+UniRef90_C1DVL1 Ribosomal RNA small subunit methyltransferase A n...  39.3    3.7   
+UniRef90_A0A1V4JL64 rRNA adenine N(6)-methyltransferase n=2 Tax=P...  39.7    3.8   
+UniRef90_UPI0007DA82C4 dimethyladenosine transferase 1, mitochond...  39.3    3.8   
+UniRef90_Q9RDV3 tRNA (guanine-N(1)-)-methyltransferase n=6 Tax=My...  38.9    4.0   
+UniRef90_A0A1I8CUX0 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  39.7    4.0   
+UniRef90_UPI000BAF29B6 dimethyladenosine transferase 1, mitochond...  39.3    4.1   
+UniRef90_A0A1V6NYI7 Uncharacterized protein n=2 Tax=Penicillium T...  39.7    4.2   
+UniRef90_A0A1E1MST9 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  39.7    4.3   
+UniRef90_Q0U0W1 rRNA adenine N(6)-methyltransferase n=1 Tax=Phaeo...  39.7    4.4   
+UniRef90_A0A061HGR4 Uncharacterized protein n=1 Tax=Blumeria gram...  39.7    4.4   
+UniRef90_M7TIZ3 Uncharacterized protein n=3 Tax=Botryotinia fucke...  39.7    4.5   
+UniRef90_A0A0G2JZ68 rRNA adenine N(6)-methyltransferase n=3 Tax=M...  39.3    4.5   
+UniRef90_C7Z0H0 Uncharacterized protein n=1 Tax=Nectria haematoco...  39.7    4.6   
+UniRef90_A0A177DXV5 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  39.7    4.6   
+UniRef90_UPI00033178BA dimethyladenosine transferase 1, mitochond...  39.3    4.7   
+UniRef90_A0A093HSF2 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  39.3    4.8   
+UniRef90_F6SN27 rRNA adenine N(6)-methyltransferase n=1 Tax=Ciona...  39.3    4.8   
+UniRef90_U9TCR8 rRNA adenine N(6)-methyltransferase n=1 Tax=Rhizo...  38.5    4.8   
+UniRef90_A9CG78 Methyltransferase n=7 Tax=Rhizobium/Agrobacterium...  38.9    5.1   
+UniRef90_A0A094AJN3 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  39.7    5.1   
+UniRef90_UPI000A310ADE class I SAM-dependent methyltransferase n=...  38.5    5.7   
+
+
+>UniRef90_P14908 Mitochondrial transcription factor 1 n=18 Tax=Saccharomyces 
+TaxID=4930 RepID=MTF1_YEAST
+Length=341
+
+ Score = 704 bits (1817),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 340/340 (100%), Positives = 340/340 (100%), Gaps = 0/340 (0%)
+
+Query  1    SVPIPGIKDISKLKFFYGFKYLWNPTVYNKIFDKLDLTKTYKHPEELKVLDLYPGVGIQS  60
+            SVPIPGIKDISKLKFFYGFKYLWNPTVYNKIFDKLDLTKTYKHPEELKVLDLYPGVGIQS
+Sbjct  2    SVPIPGIKDISKLKFFYGFKYLWNPTVYNKIFDKLDLTKTYKHPEELKVLDLYPGVGIQS  61
+
+Query  61   AIFYNKYCPRQYSLLEKRSSLYKFLNAKFEGSPLQILKRDPYDWSTYSNLIDEERIFVPE  120
+            AIFYNKYCPRQYSLLEKRSSLYKFLNAKFEGSPLQILKRDPYDWSTYSNLIDEERIFVPE
+Sbjct  62   AIFYNKYCPRQYSLLEKRSSLYKFLNAKFEGSPLQILKRDPYDWSTYSNLIDEERIFVPE  121
+
+Query  121  VQSSDHINDKFLTVANVTGEGSEGLIMQWLSCIGNKNWLYRFGKVKMLLWMPSTTARKLL  180
+            VQSSDHINDKFLTVANVTGEGSEGLIMQWLSCIGNKNWLYRFGKVKMLLWMPSTTARKLL
+Sbjct  122  VQSSDHINDKFLTVANVTGEGSEGLIMQWLSCIGNKNWLYRFGKVKMLLWMPSTTARKLL  181
+
+Query  181  ARPGMHSRSKCSVVREAFTDTKLIAISDANELKGFDSQCIEEWDPILFSAAEIWPTKGKP  240
+            ARPGMHSRSKCSVVREAFTDTKLIAISDANELKGFDSQCIEEWDPILFSAAEIWPTKGKP
+Sbjct  182  ARPGMHSRSKCSVVREAFTDTKLIAISDANELKGFDSQCIEEWDPILFSAAEIWPTKGKP  241
+
+Query  241  IALVEMDPIDFDFDVDNWDYVTRHLMILKRTPLNTVMDSLGHGGQQYFNSRITDKDLLKK  300
+            IALVEMDPIDFDFDVDNWDYVTRHLMILKRTPLNTVMDSLGHGGQQYFNSRITDKDLLKK
+Sbjct  242  IALVEMDPIDFDFDVDNWDYVTRHLMILKRTPLNTVMDSLGHGGQQYFNSRITDKDLLKK  301
+
+Query  301  CPIDLTNDEFIYLTKLFMEWPFKPDILMDFVDMYQTEHSG  340
+            CPIDLTNDEFIYLTKLFMEWPFKPDILMDFVDMYQTEHSG
+Sbjct  302  CPIDLTNDEFIYLTKLFMEWPFKPDILMDFVDMYQTEHSG  341
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2648667095460
+Results from round 2
+
+
+Query= 6ymw_B
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+UniRef90_P14908 Mitochondrial transcription factor 1 n=18 Tax=Sac...  494     5e-174
+UniRef90_H0GZN9 Mtf1p n=1 Tax=Saccharomyces cerevisiae x Saccharo...  480     2e-168
+UniRef90_J8Q3D4 Mtf1p n=1 Tax=Saccharomyces arboricola (strain H-...  473     7e-166
+UniRef90_A0A0L8RDP3 MTF1-like protein n=1 Tax=Saccharomyces eubay...  472     2e-165
+UniRef90_A0A1S7HY40 rRNA adenine N(6)-methyltransferase n=4 Tax=Z...  422     2e-145
+UniRef90_P87292 Mitochondrial transcription factor 1 n=1 Tax=Lach...  417     2e-143
+UniRef90_C5E0U8 rRNA adenine N(6)-methyltransferase n=2 Tax=Zygos...  416     5e-143
+UniRef90_G8ZPD9 rRNA adenine N(6)-methyltransferase n=1 Tax=Torul...  415     7e-143
+UniRef90_A0A1Q3AKQ9 rRNA adenine N(6)-methyltransferase n=1 Tax=Z...  414     2e-142
+UniRef90_C5DF87 rRNA adenine N(6)-methyltransferase n=1 Tax=Lacha...  414     3e-142
+UniRef90_A0A1G4INA1 LAMI_0A03686g1_1 n=1 Tax=Lachancea mirantina ...  410     8e-141
+UniRef90_A0A0P1KL66 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  406     3e-139
+UniRef90_A7TIS4 rRNA adenine N(6)-methyltransferase n=1 Tax=Vande...  400     1e-136
+UniRef90_A0A1G4JQ47 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  399     3e-136
+UniRef90_A0A1G4KN05 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  398     3e-136
+UniRef90_A0A1G4MD24 LAFE_0E06634g1_1 n=1 Tax=Lachancea fermentati...  393     4e-134
+UniRef90_A0A1G4JSJ5 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  392     1e-133
+UniRef90_G8BVF5 rRNA adenine N(6)-methyltransferase n=1 Tax=Tetra...  391     2e-133
+UniRef90_A0A1G4J424 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  389     1e-132
+UniRef90_A0A0C7ML09 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  387     1e-131
+UniRef90_J7RR28 rRNA adenine N(6)-methyltransferase n=1 Tax=Kazac...  387     1e-131
+UniRef90_G0VC72 rRNA adenine N(6)-methyltransferase n=1 Tax=Naumo...  381     2e-129
+UniRef90_Q6FIW3 Uncharacterized protein n=2 Tax=Candida glabrata ...  373     2e-126
+UniRef90_G0WHM3 rRNA adenine N(6)-methyltransferase n=1 Tax=Naumo...  373     5e-126
+UniRef90_H2AQI6 rRNA adenine N(6)-methyltransferase n=1 Tax=Kazac...  371     2e-125
+UniRef90_A0A1X7R906 rRNA adenine N(6)-methyltransferase n=1 Tax=K...  354     8e-119
+UniRef90_G8JVG3 rRNA adenine N(6)-methyltransferase n=1 Tax=Eremo...  332     3e-110
+UniRef90_P87250 Mitochondrial transcription factor 1 n=1 Tax=Kluy...  327     3e-108
+UniRef90_R9XBK9 rRNA adenine N(6)-methyltransferase n=1 Tax=Ashby...  326     7e-108
+UniRef90_Q752L0 AFR564Wp n=1 Tax=Ashbya gossypii (strain ATCC 108...  326     8e-108
+UniRef90_W0TBD6 rRNA adenine N(6)-methyltransferase n=1 Tax=Kluyv...  323     1e-106
+UniRef90_A0A1E4SF47 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  323     4e-106
+UniRef90_A3LTE8 rRNA adenine N(6)-methyltransferase n=1 Tax=Schef...  322     5e-106
+UniRef90_A0A125RDT6 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  321     1e-105
+UniRef90_A0A0J9XGD3 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  319     6e-105
+UniRef90_G3BE99 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  313     2e-102
+UniRef90_A5DPS0 rRNA adenine N(6)-methyltransferase n=2 Tax=Meyer...  314     2e-102
+UniRef90_G8YQZ5 rRNA adenine N(6)-methyltransferase n=1 Tax=Pichi...  311     1e-101
+UniRef90_A0A0V1Q200 Uncharacterized protein n=2 Tax=Debaryomyces ...  310     6e-101
+UniRef90_A0A1L0E2V4 rRNA adenine N(6)-methyltransferase n=2 Tax=[...  308     3e-100
+UniRef90_C4Y8N4 rRNA adenine N(6)-methyltransferase n=1 Tax=Clavi...  307     9e-100
+UniRef90_M3JFC2 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  306     4e-99 
+UniRef90_B9WAQ0 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  299     4e-97 
+UniRef90_A0A1E3P4Q6 rRNA adenine N(6)-methyltransferase n=1 Tax=W...  297     8e-97 
+UniRef90_A0A1E4RKI1 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  298     1e-96 
+UniRef90_A0A1A0GZ69 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  299     1e-96 
+UniRef90_Q5ALP7 RNA polymerase specificity factor n=2 Tax=Candida...  298     2e-96 
+UniRef90_A0A0L0NXK7 rRNA adenine N(6)-methyltransferase n=3 Tax=C...  298     2e-96 
+UniRef90_A0A167F9F3 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  291     2e-94 
+UniRef90_A0A165BE25 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  294     2e-94 
+UniRef90_A0A1X6NCN8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  293     4e-94 
+UniRef90_A0A1E3QLJ2 rRNA adenine N(6)-methyltransferase (Fragment...  290     5e-94 
+UniRef90_G8BE62 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  291     7e-94 
+UniRef90_A0A2H3JUU9 rRNA adenine N(6)-methyltransferase n=1 Tax=W...  291     2e-93 
+UniRef90_G3ALN1 rRNA adenine N(6)-methyltransferase n=1 Tax=Spath...  290     2e-93 
+UniRef90_A0A1E3PRU5 rRNA adenine N(6)-methyltransferase n=1 Tax=N...  290     3e-93 
+UniRef90_J4GJ28 rRNA adenine N(6)-methyltransferase n=1 Tax=Fibro...  290     4e-93 
+UniRef90_H8WYP0 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  289     6e-93 
+UniRef90_C5M6D7 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  289     7e-93 
+UniRef90_A0A061B344 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  288     9e-93 
+UniRef90_UPI00046222AF S-adenosyl-L-methionine-dependent methyltr...  288     3e-92 
+UniRef90_A5DUS5 rRNA adenine N(6)-methyltransferase n=1 Tax=Lodde...  286     6e-92 
+UniRef90_A0A1C7LUC6 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  285     9e-92 
+UniRef90_S8DVS5 rRNA adenine N(6)-methyltransferase n=1 Tax=Fomit...  287     1e-91 
+UniRef90_A0A060TD45 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  284     4e-91 
+UniRef90_A0A1E4U3B8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  284     7e-91 
+UniRef90_F8NUC9 rRNA adenine N(6)-methyltransferase n=2 Tax=Serpu...  284     2e-90 
+UniRef90_A0A0H5C7X3 rRNA adenine N(6)-methyltransferase n=2 Tax=C...  280     5e-90 
+UniRef90_A0A165RQM7 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  281     2e-89 
+UniRef90_A0A1B7NH06 rRNA adenine N(6)-methyltransferase n=2 Tax=R...  281     8e-89 
+UniRef90_UPI0004449E4B S-adenosyl-L-methionine-dependent methyltr...  280     1e-88 
+UniRef90_UPI0004414732 S-adenosyl-L-methionine-dependent methyltr...  278     3e-88 
+UniRef90_A0A1Y2IVT0 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  277     7e-88 
+UniRef90_W4K5C5 rRNA adenine N(6)-methyltransferase (Fragment) n=...  273     1e-86 
+UniRef90_A0A2G8SKZ8 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  274     1e-86 
+UniRef90_A0A0W4ZHF8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  272     2e-86 
+UniRef90_K5UWB4 rRNA adenine N(6)-methyltransferase n=1 Tax=Phane...  274     2e-86 
+UniRef90_I2GYH8 rRNA adenine N(6)-methyltransferase n=1 Tax=Tetra...  271     3e-86 
+UniRef90_A0A0W4ZFT6 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  270     7e-86 
+UniRef90_F2QXR7 rRNA adenine N(6)-methyltransferase n=3 Tax=Komag...  270     1e-85 
+UniRef90_UPI0004416A2D S-adenosyl-L-methionine-dependent methyltr...  270     3e-85 
+UniRef90_A0A0D0BPN7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  270     1e-84 
+UniRef90_S7RR38 rRNA adenine N(6)-methyltransferase n=1 Tax=Gloeo...  266     2e-84 
+UniRef90_A0A068RZW5 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  265     4e-84 
+UniRef90_A0A166X8N8 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  269     7e-84 
+UniRef90_S2J3P3 rRNA adenine N(6)-methyltransferase n=3 Tax=Mucor...  265     7e-84 
+UniRef90_A0A1E3QYU2 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  266     8e-84 
+UniRef90_A0A0C3A9M0 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  267     1e-83 
+UniRef90_A0A0C3KKA5 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  267     1e-83 
+UniRef90_A0A1E5R5Y1 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  265     3e-83 
+UniRef90_A0A0C3NZN0 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  265     4e-83 
+UniRef90_A0A067PS86 rRNA adenine N(6)-methyltransferase n=1 Tax=J...  265     4e-83 
+UniRef90_M7NM90 rRNA adenine N(6)-methyltransferase n=1 Tax=Pneum...  260     2e-82 
+UniRef90_A0A2A9NWK8 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  262     6e-82 
+UniRef90_A0A067NK86 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  262     9e-82 
+UniRef90_A0A067SVX2 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  262     1e-81 
+UniRef90_W6MV12 rRNA adenine N(6)-methyltransferase n=1 Tax=Kurai...  259     2e-81 
+UniRef90_B0D1C3 rRNA adenine N(6)-methyltransferase n=1 Tax=Lacca...  260     1e-80 
+UniRef90_A0A0C2XBT9 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  259     2e-80 
+UniRef90_E7A2N4 rRNA adenine N(6)-methyltransferase n=2 Tax=Spori...  264     3e-80 
+UniRef90_K5XYV1 rRNA adenine N(6)-methyltransferase n=2 Tax=Agari...  260     4e-80 
+UniRef90_A0A0H2S1Z0 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  257     6e-80 
+UniRef90_A0A0D0DTE3 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  254     6e-80 
+UniRef90_A0A0M8MSR4 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  257     2e-79 
+UniRef90_A0A067NCL5 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  255     3e-79 
+UniRef90_A0A127Z3W8 rRNA adenine N(6)-methyltransferase n=2 Tax=S...  261     4e-79 
+UniRef90_I2FYQ1 rRNA adenine N(6)-methyltransferase n=2 Tax=Ustil...  259     1e-78 
+UniRef90_R9PCW5 rRNA adenine N(6)-methyltransferase n=1 Tax=Pseud...  259     2e-78 
+UniRef90_A8N7I4 rRNA adenine N(6)-methyltransferase n=1 Tax=Copri...  254     3e-78 
+UniRef90_A0A165YR88 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  251     3e-78 
+UniRef90_A0A2N1JC30 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  253     8e-78 
+UniRef90_A0A0C3BNN8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  252     1e-77 
+UniRef90_A0A1E3QG27 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  250     1e-77 
+UniRef90_A0A0C9Y6S6 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  252     2e-77 
+UniRef90_A0A286UGG8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  250     2e-77 
+UniRef90_A0A1Y2FQN7 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  253     2e-77 
+UniRef90_A0A0E9N9M0 Uncharacterized protein n=3 Tax=Saitoella com...  265     4e-77 
+UniRef90_A0A165A382 rRNA adenine N(6)-methyltransferase n=2 Tax=S...  249     5e-77 
+UniRef90_V5E419 rRNA adenine N(6)-methyltransferase n=1 Tax=Kalma...  254     6e-77 
+UniRef90_K0KVK6 rRNA adenine N(6)-methyltransferase n=1 Tax=Wicke...  245     6e-77 
+UniRef90_A0A0C3M7C0 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  247     7e-77 
+UniRef90_A0A1C7NES0 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  246     1e-76 
+UniRef90_A0A0C3CNN1 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  252     1e-76 
+UniRef90_A0A074RYX1 rRNA adenine N(6)-methyltransferase n=2 Tax=R...  247     2e-76 
+UniRef90_A0A077WSN7 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  254     3e-76 
+UniRef90_A0A202G570 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  244     3e-76 
+UniRef90_A0A081CDA9 rRNA adenine N(6)-methyltransferase n=3 Tax=M...  253     3e-76 
+UniRef90_V2XDY4 rRNA adenine N(6)-methyltransferase n=2 Tax=Monil...  250     4e-76 
+UniRef90_A0A0D1E2C7 rRNA adenine N(6)-methyltransferase n=1 Tax=U...  252     4e-76 
+UniRef90_A0A165V5J7 rRNA adenine N(6)-methyltransferase n=1 Tax=N...  244     5e-76 
+UniRef90_A0A1E4TLE6 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  244     5e-75 
+UniRef90_A0A077R4X9 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  250     6e-75 
+UniRef90_UPI00044096AE S-adenosyl-L-methionine-dependent methyltr...  242     1e-74 
+UniRef90_A0A1Y2G395 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  243     2e-74 
+UniRef90_A0A1U7LP79 rRNA adenine N(6)-methyltransferase n=1 Tax=N...  240     4e-74 
+UniRef90_A0A061H271 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  248     4e-74 
+UniRef90_R9AIK9 rRNA adenine N(6)-methyltransferase n=1 Tax=Walle...  241     5e-74 
+UniRef90_A0A284QLB0 rRNA adenine N(6)-methyltransferase n=3 Tax=A...  241     9e-74 
+UniRef90_A0A1Q3DZV4 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  240     3e-73 
+UniRef90_A0A0L6WMF4 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  239     5e-73 
+UniRef90_A0A1X2HVH7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  237     5e-73 
+UniRef90_A0A167L6X1 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  236     5e-73 
+UniRef90_A0A2P7YRF8 Uncharacterized protein n=1 Tax=[Candida] pse...  236     6e-73 
+UniRef90_A0A0D2NU38 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  242     9e-73 
+UniRef90_A0A1X2IEB0 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  236     1e-72 
+UniRef90_A8Q296 rRNA adenine N(6)-methyltransferase n=1 Tax=Malas...  238     1e-72 
+UniRef90_A0A177UFW3 rRNA adenine N(6)-methyltransferase n=2 Tax=T...  244     2e-72 
+UniRef90_M5ENE9 rRNA adenine N(6)-methyltransferase n=2 Tax=Malas...  239     2e-72 
+UniRef90_A0A0C7BV86 rRNA adenine N(6)-methyltransferase n=6 Tax=R...  233     1e-71 
+UniRef90_I4Y860 rRNA adenine N(6)-methyltransferase n=1 Tax=Walle...  234     1e-71 
+UniRef90_A0A165CI27 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  234     1e-71 
+UniRef90_A0A1D2VI44 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  234     1e-71 
+UniRef90_A0A151VZE4 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  237     2e-71 
+UniRef90_A0A109FKV4 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  235     2e-71 
+UniRef90_A0A1X2IR11 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  233     2e-71 
+UniRef90_UPI000455D98E S-adenosyl-L-methionine-dependent methyltr...  237     2e-71 
+UniRef90_A0A137QUD2 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  236     4e-71 
+UniRef90_A0A0D0A7H4 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  236     4e-71 
+UniRef90_A0A177UYN9 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  237     9e-71 
+UniRef90_A0A167JB54 rRNA adenine N(6)-methyltransferase (Fragment...  229     6e-70 
+UniRef90_A0A194S4K9 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  230     1e-69 
+UniRef90_A0A0K6GGX5 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  234     2e-69 
+UniRef90_A0A1M2VXP1 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  225     2e-69 
+UniRef90_A0A0D7BIT3 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  229     3e-69 
+UniRef90_A0A0B7N4N3 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  226     5e-69 
+UniRef90_A0A0C3B4A7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  228     1e-68 
+UniRef90_A0A0P1BDY8 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  230     2e-68 
+UniRef90_R4X6I0 rRNA adenine N(6)-methyltransferase n=1 Tax=Taphr...  228     3e-68 
+UniRef90_Q9US51 Mitochondrial transcription factor 1 n=1 Tax=Schi...  226     3e-68 
+UniRef90_A0A146IEM8 Glycoside hydrolase family 63 protein n=1 Tax...  240     6e-68 
+UniRef90_A0A0K6FLG2 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  225     1e-67 
+UniRef90_A0A0D7AMX2 rRNA adenine N(6)-methyltransferase (Fragment...  222     2e-67 
+UniRef90_A0A168NS54 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  219     4e-66 
+UniRef90_G4T9N8 rRNA adenine N(6)-methyltransferase n=1 Tax=Seren...  220     8e-66 
+UniRef90_A0A0D6EL46 rRNA adenine N(6)-methyltransferase (Fragment...  220     2e-65 
+UniRef90_S9PUT3 rRNA adenine N(6)-methyltransferase n=1 Tax=Schiz...  218     3e-65 
+UniRef90_D8QCK8 rRNA adenine N(6)-methyltransferase n=1 Tax=Schiz...  230     1e-64 
+UniRef90_B6K3U8 rRNA adenine N(6)-methyltransferase n=1 Tax=Schiz...  217     1e-64 
+UniRef90_A0A0A8L2S3 rRNA adenine N(6)-methyltransferase n=1 Tax=K...  212     1e-64 
+UniRef90_M5CA69 rRNA adenine N(6)-methyltransferase n=1 Tax=Thana...  217     2e-64 
+UniRef90_A0A066VU09 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  214     1e-63 
+UniRef90_S9W0P2 rRNA adenine N(6)-methyltransferase n=1 Tax=Schiz...  214     1e-63 
+UniRef90_A0A0K3CQG8 rRNA adenine N(6)-methyltransferase n=3 Tax=R...  215     1e-63 
+UniRef90_M5FNF6 rRNA adenine N(6)-methyltransferase (Fragment) n=...  211     4e-63 
+UniRef90_G1X6M2 rRNA adenine N(6)-methyltransferase n=1 Tax=Arthr...  219     2e-61 
+UniRef90_A0A238FHH8 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  202     4e-58 
+UniRef90_S8A8F2 rRNA adenine N(6)-methyltransferase n=1 Tax=Dacty...  207     2e-57 
+UniRef90_L0P7W0 rRNA adenine N(6)-methyltransferase n=1 Tax=Pneum...  193     3e-57 
+UniRef90_A0A015J0S0 rRNA adenine N(6)-methyltransferase n=6 Tax=R...  195     5e-57 
+UniRef90_UPI00073D244F mitochondrial dimethyladenosine transferas...  194     3e-56 
+UniRef90_A0A1E4SXK3 rRNA adenine N(6)-methyltransferase n=1 Tax=[...  192     1e-55 
+UniRef90_A0A1V2LIU2 rRNA adenine N(6)-methyltransferase n=2 Tax=P...  191     7e-55 
+UniRef90_W1QC08 rRNA adenine N(6)-methyltransferase n=2 Tax=Ogata...  189     6e-54 
+UniRef90_A0A0C9Q9U8 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  187     3e-53 
+UniRef90_A0A197JG56 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  186     3e-53 
+UniRef90_UPI000718AD72 mitochondrial dimethyladenosine transferas...  186     5e-53 
+UniRef90_I1CUX0 rRNA adenine N(6)-methyltransferase n=1 Tax=Rhizo...  183     7e-53 
+UniRef90_UPI0009953B95 dimethyladenosine transferase 1, mitochond...  183     8e-52 
+UniRef90_UPI0007384A6D dimethyladenosine transferase 1, mitochond...  183     9e-52 
+UniRef90_D3BVF6 rRNA adenine N(6)-methyltransferase n=1 Tax=Polys...  183     3e-51 
+UniRef90_W7HQT9 rRNA adenine N(6)-methyltransferase n=1 Tax=Drech...  188     2e-50 
+UniRef90_UPI000771DEC0 dimethyladenosine transferase 1, mitochond...  178     5e-50 
+UniRef90_A0A0J7NU55 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  178     1e-49 
+UniRef90_A0A154PPD3 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  177     1e-49 
+UniRef90_E2A745 rRNA adenine N(6)-methyltransferase n=1 Tax=Campo...  177     1e-49 
+UniRef90_UPI00062688E5 dimethyladenosine transferase 1, mitochond...  176     2e-49 
+UniRef90_UPI0005CE8F62 dimethyladenosine transferase 1, mitochond...  175     6e-49 
+UniRef90_UPI00083C1E55 dimethyladenosine transferase 1, mitochond...  173     4e-48 
+UniRef90_A0A2I1EUX2 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  171     5e-48 
+UniRef90_A0A1X2GHA7 rRNA adenine N(6)-methyltransferase (Fragment...  167     2e-47 
+UniRef90_UPI0006232CAE mitochondrial dimethyladenosine transferas...  170     1e-46 
+UniRef90_A0A1W0WCU2 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  167     5e-46 
+UniRef90_A0A1E3NIJ1 Uncharacterized protein n=1 Tax=Pichia membra...  166     3e-45 
+UniRef90_A0A177U1G4 rRNA adenine N(6)-methyltransferase (Fragment...  164     5e-45 
+UniRef90_A0A1D1VNZ5 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  165     7e-45 
+UniRef90_C5GH65 rRNA adenine N(6)-methyltransferase n=7 Tax=Ajell...  168     5e-44 
+UniRef90_A0A2B7X3B5 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  168     1e-43 
+UniRef90_A0A226F5V7 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  161     3e-43 
+UniRef90_G7E8Q6 Uncharacterized protein n=1 Tax=Mixia osmundae (s...  160     2e-42 
+UniRef90_A0A0C7CII5 Putative 3-isopropylmalate dehydratase n=1 Ta...  162     1e-41 
+UniRef90_A6R3Z3 rRNA adenine N(6)-methyltransferase n=4 Tax=Ajell...  160     7e-41 
+UniRef90_A0A0G2JB88 rRNA adenine N(6)-methyltransferase n=2 Tax=E...  159     2e-40 
+UniRef90_A0A162IDJ8 Uncharacterized protein n=1 Tax=Ascosphaera a...  153     3e-38 
+UniRef90_C1HC79 Uncharacterized protein n=4 Tax=Paracoccidioides ...  153     3e-38 
+UniRef90_A0A1J9PG57 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  152     4e-38 
+UniRef90_A0A060SVE4 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  141     1e-37 
+UniRef90_A0A0L0T6X9 rRNA adenine N(6)-methyltransferase n=2 Tax=A...  145     1e-37 
+UniRef90_A0A2B7YIC7 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  151     1e-37 
+UniRef90_A0A1B7P7I6 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  149     6e-37 
+UniRef90_D5GDV9 rRNA adenine N(6)-methyltransferase n=1 Tax=Tuber...  148     1e-36 
+UniRef90_A0A292Q0N2 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  148     1e-36 
+UniRef90_A0A1Y1X7Q8 rRNA adenine N(6)-methyltransferase (Fragment...  141     2e-36 
+UniRef90_A0A165IBR2 rRNA adenine N(6)-methyltransferase n=1 Tax=X...  146     6e-36 
+UniRef90_G2R6N7 Uncharacterized protein n=1 Tax=Thielavia terrest...  146     2e-35 
+UniRef90_A0A167ZAP4 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  143     3e-35 
+UniRef90_A0A0F2M464 rRNA adenine N(6)-methyltransferase n=3 Tax=S...  143     1e-34 
+UniRef90_U4LW74 rRNA adenine N(6)-methyltransferase n=1 Tax=Pyron...  142     2e-34 
+UniRef90_A0A178F5A3 Uncharacterized protein n=5 Tax=Trichophyton ...  143     2e-34 
+UniRef90_A0A2B7XT81 Uncharacterized protein n=1 Tax=Helicocarpus ...  142     2e-34 
+UniRef90_E4V002 Uncharacterized protein n=1 Tax=Arthroderma gypse...  141     4e-34 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_U5HEX9 rRNA adenine N(6)-methyltransferase n=1 Tax=Micro...  197     2e-56
+UniRef90_UPI0005F05A43 dimethyladenosine transferase 1, mitochond...  175     1e-48
+UniRef90_A0A026WBF3 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  174     2e-48
+UniRef90_A0A158NG55 rRNA adenine N(6)-methyltransferase n=7 Tax=A...  174     2e-48
+UniRef90_UPI00021A634C dimethyladenosine transferase 1, mitochond...  173     3e-48
+UniRef90_E9IE08 rRNA adenine N(6)-methyltransferase (Fragment) n=...  173     4e-48
+UniRef90_UPI000711E2DF dimethyladenosine transferase 1, mitochond...  172     1e-47
+UniRef90_A0A0L7RE23 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  171     2e-47
+UniRef90_UPI0006451FBE hypothetical protein n=1 Tax=Acytostelium ...  173     3e-47
+UniRef90_UPI00063F254C dimethyladenosine transferase 1, mitochond...  171     4e-47
+UniRef90_A0A291L1S0 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  171     6e-47
+UniRef90_A0A1Y2GJE3 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  170     7e-47
+UniRef90_A0A151X248 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  170     7e-47
+UniRef90_B7PHJ2 rRNA adenine N(6)-methyltransferase n=3 Tax=Ixode...  171     8e-47
+UniRef90_UPI0005D3CFF6 dimethyladenosine transferase 1, mitochond...  170     9e-47
+UniRef90_UPI00076FD806 dimethyladenosine transferase 1, mitochond...  170     1e-46
+UniRef90_A0A151INV7 rRNA adenine N(6)-methyltransferase (Fragment...  170     1e-46
+UniRef90_UPI0006C9CD66 dimethyladenosine transferase 1, mitochond...  169     3e-46
+UniRef90_UPI000258EA1C dimethyladenosine transferase 1, mitochond...  167     1e-45
+UniRef90_UPI00084035E1 dimethyladenosine transferase 1, mitochond...  167     1e-45
+UniRef90_UPI0004CCE81D dimethyladenosine transferase 1, mitochond...  167     2e-45
+UniRef90_UPI0005F3CAA8 dimethyladenosine transferase 1, mitochond...  166     4e-45
+UniRef90_A0A067RF29 rRNA adenine N(6)-methyltransferase n=1 Tax=Z...  165     9e-45
+UniRef90_A0A088AQJ2 rRNA adenine N(6)-methyltransferase n=3 Tax=A...  164     1e-44
+UniRef90_E0W102 rRNA adenine N(6)-methyltransferase n=1 Tax=Pedic...  164     2e-44
+UniRef90_A0A2C9JQC7 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  163     5e-44
+UniRef90_V9IJ09 rRNA adenine N(6)-methyltransferase n=2 Tax=Apis ...  162     6e-44
+UniRef90_UPI000C1FF2B1 dimethyladenosine transferase 1, mitochond...  161     2e-43
+UniRef90_UPI0006B0FA36 dimethyladenosine transferase 1, mitochond...  161     2e-43
+UniRef90_A0A1Y3BSA2 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  161     3e-43
+UniRef90_A0A171AGT9 rRNA adenine N(6)-methyltransferase (Fragment...  159     5e-43
+UniRef90_UPI0007D93588 dimethyladenosine transferase 1, mitochond...  160     5e-43
+UniRef90_A0A0L6VKB0 Uncharacterized protein n=1 Tax=Puccinia sorg...  163     1e-42
+UniRef90_A0A2P8YBT2 Dimethyladenosine transferase 1 n=1 Tax=Blatt...  158     2e-42
+UniRef90_A0A1D2ML59 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  160     2e-42
+UniRef90_Q1A705 Dimethyladenosine transferase 1, mitochondrial n=...  158     3e-42
+UniRef90_UPI0008F9D312 mitochondrial dimethyladenosine transferas...  158     4e-42
+UniRef90_A0A0N0BDA8 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  158     4e-42
+UniRef90_UPI000C6E3282 dimethyladenosine transferase 1, mitochond...  157     6e-42
+UniRef90_A0A2N5U3F4 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  161     8e-42
+UniRef90_UPI000BBEEBAD dimethyladenosine transferase 1, mitochond...  157     1e-41
+UniRef90_A0A0B7BIC6 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  157     1e-41
+UniRef90_UPI0009B397B8 dimethyladenosine transferase 1, mitochond...  157     1e-41
+UniRef90_V4A9D4 rRNA adenine N(6)-methyltransferase n=1 Tax=Lotti...  156     2e-41
+UniRef90_UPI00065B9326 mitochondrial dimethyladenosine transferas...  156     2e-41
+UniRef90_D6W6C5 rRNA adenine N(6)-methyltransferase n=1 Tax=Tribo...  155     2e-41
+UniRef90_A0A2H8TQG3 rRNA adenine N(6)-methyltransferase n=3 Tax=A...  156     2e-41
+UniRef90_A0A2N5TQR8 rRNA adenine N(6)-methyltransferase n=2 Tax=P...  160     2e-41
+UniRef90_UPI000497A5EA dimethyladenosine transferase 1, mitochond...  156     3e-41
+UniRef90_UPI00083BDBC0 dimethyladenosine transferase 1, mitochond...  155     3e-41
+UniRef90_A0A2P2I1E2 Dimethyladenosine transferase 1, mitochondria...  156     4e-41
+UniRef90_UPI0006C95FFF dimethyladenosine transferase 1, mitochond...  155     5e-41
+UniRef90_T1J092 rRNA adenine N(6)-methyltransferase n=1 Tax=Strig...  155     5e-41
+UniRef90_A0A180GI49 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  159     6e-41
+UniRef90_G3NUW5 rRNA adenine N(6)-methyltransferase n=1 Tax=Gaste...  155     7e-41
+UniRef90_F4PRW5 rRNA adenine N(6)-methyltransferase n=1 Tax=Caven...  157     7e-41
+UniRef90_UPI000B97E81C dimethyladenosine transferase 1, mitochond...  155     9e-41
+UniRef90_T1EF65 rRNA adenine N(6)-methyltransferase n=1 Tax=Helob...  154     1e-40
+UniRef90_Q1A706 rRNA adenine N(6)-methyltransferase n=2 Tax=Acant...  153     1e-40
+UniRef90_B0WLE5 rRNA adenine N(6)-methyltransferase n=2 Tax=Culex...  154     1e-40
+UniRef90_G3MPS8 rRNA adenine N(6)-methyltransferase n=1 Tax=Ambly...  153     1e-40
+UniRef90_A0A0A9WG27 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  153     2e-40
+UniRef90_T1HMC6 rRNA adenine N(6)-methyltransferase n=1 Tax=Rhodn...  154     2e-40
+UniRef90_A0A293N6I4 rRNA adenine N(6)-methyltransferase (Fragment...  153     2e-40
+UniRef90_H9JR52 rRNA adenine N(6)-methyltransferase n=1 Tax=Bomby...  153     3e-40
+UniRef90_UPI000CD63137 dimethyladenosine transferase 1, mitochond...  153     3e-40
+UniRef90_A0A1W4XU91 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  152     4e-40
+UniRef90_A0A1Y1KK19 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  152     5e-40
+UniRef90_UPI00094E9688 dimethyladenosine transferase 1, mitochond...  153     5e-40
+UniRef90_UPI000643EF46 dimethyladenosine transferase 1, mitochond...  152     7e-40
+UniRef90_U4U6N5 rRNA adenine N(6)-methyltransferase n=2 Tax=Dendr...  157     8e-40
+UniRef90_UPI0008749DEB dimethyladenosine transferase 1, mitochond...  151     9e-40
+UniRef90_A0A131ZTL7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  152     9e-40
+UniRef90_A0A0P5FLQ5 rRNA adenine N(6)-methyltransferase n=5 Tax=D...  153     9e-40
+UniRef90_UPI000626E7C0 mitochondrial dimethyladenosine transferas...  151     1e-39
+UniRef90_W4ZKF6 rRNA adenine N(6)-methyltransferase n=1 Tax=Stron...  150     1e-39
+UniRef90_UPI000495E704 dimethyladenosine transferase 1, mitochond...  151     1e-39
+UniRef90_A0A194QV99 rRNA adenine N(6)-methyltransferase n=3 Tax=P...  151     1e-39
+UniRef90_UPI0006D4F907 dimethyladenosine transferase 1, mitochond...  151     1e-39
+UniRef90_UPI000BE1B552 dimethyladenosine transferase 1, mitochond...  151     1e-39
+UniRef90_UPI0006762DEA dimethyladenosine transferase 1, mitochond...  151     2e-39
+UniRef90_A0A2A4J8C7 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  150     2e-39
+UniRef90_Q54M56 rRNA adenine N(6)-methyltransferase n=1 Tax=Dicty...  153     2e-39
+UniRef90_A0A0R4IU10 rRNA adenine N(6)-methyltransferase n=3 Tax=D...  151     2e-39
+UniRef90_UPI00096AECE2 LOW QUALITY PROTEIN: dimethyladenosine tra...  150     2e-39
+UniRef90_UPI000901A6A8 dimethyladenosine transferase 1, mitochond...  151     2e-39
+UniRef90_A0A0L7KTT3 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  150     3e-39
+UniRef90_UPI000B90A9AF dimethyladenosine transferase 1, mitochond...  149     3e-39
+UniRef90_UPI0003C838EF dimethyladenosine transferase 1, mitochond...  150     3e-39
+UniRef90_A0A2I4BEB3 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  150     4e-39
+UniRef90_UPI000556F68B dimethyladenosine transferase 1, mitochond...  150     4e-39
+UniRef90_R7T9D9 rRNA adenine N(6)-methyltransferase n=1 Tax=Capit...  150     4e-39
+UniRef90_E9FZG5 rRNA adenine N(6)-methyltransferase n=1 Tax=Daphn...  150     4e-39
+UniRef90_I3JMW9 rRNA adenine N(6)-methyltransferase n=6 Tax=Pseud...  150     4e-39
+UniRef90_H2TIH3 rRNA adenine N(6)-methyltransferase n=2 Tax=Takif...  150     5e-39
+UniRef90_UPI0008144F67 dimethyladenosine transferase 1, mitochond...  150     5e-39
+UniRef90_A0A210QIU6 rRNA adenine N(6)-methyltransferase n=2 Tax=M...  150     5e-39
+UniRef90_Q2TBQ0 Mitochondrial dimethyladenosine transferase 1 n=1...  149     6e-39
+UniRef90_A0A0L8HX40 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  149     6e-39
+UniRef90_UPI000719BCD4 dimethyladenosine transferase 1, mitochond...  149     6e-39
+UniRef90_H3AXD8 rRNA adenine N(6)-methyltransferase n=1 Tax=Latim...  150     6e-39
+UniRef90_H2MSD5 rRNA adenine N(6)-methyltransferase n=3 Tax=Oryzi...  149     6e-39
+UniRef90_UPI0007BA79EF LOW QUALITY PROTEIN: dimethyladenosine tra...  149     8e-39
+UniRef90_A0A0L0W2T5 Uncharacterized protein n=1 Tax=Puccinia stri...  153     9e-39
+UniRef90_A0A091EZM0 rRNA adenine N(6)-methyltransferase n=13 Tax=...  149     1e-38
+UniRef90_A0A091DQS8 rRNA adenine N(6)-methyltransferase n=3 Tax=H...  148     1e-38
+UniRef90_UPI00033178BA dimethyladenosine transferase 1, mitochond...  148     1e-38
+UniRef90_A0A0P6K794 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  151     1e-38
+UniRef90_A0A0K8RW85 rRNA adenine N(6)-methyltransferase n=8 Tax=C...  148     1e-38
+UniRef90_UPI0003F0EC5B dimethyladenosine transferase 1, mitochond...  147     2e-38
+UniRef90_A0A131YM25 rRNA adenine N(6)-methyltransferase n=3 Tax=I...  148     2e-38
+UniRef90_UPI000576ED22 dimethyladenosine transferase 1, mitochond...  149     2e-38
+UniRef90_A0A182M861 rRNA adenine N(6)-methyltransferase n=5 Tax=C...  150     2e-38
+UniRef90_A0A1S3SND5 rRNA adenine N(6)-methyltransferase n=5 Tax=S...  148     2e-38
+UniRef90_Q7PZX0 rRNA adenine N(6)-methyltransferase (Fragment) n=...  150     2e-38
+UniRef90_A0A1B6DY39 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  148     2e-38
+UniRef90_UPI000CF7E6BA dimethyladenosine transferase 1, mitochond...  148     2e-38
+UniRef90_A0A1B0CTH1 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  148     3e-38
+UniRef90_A0A147ABG2 rRNA adenine N(6)-methyltransferase n=2 Tax=F...  148     3e-38
+UniRef90_A0A182X039 rRNA adenine N(6)-methyltransferase n=4 Tax=C...  148     3e-38
+UniRef90_UPI00032900C8 dimethyladenosine transferase 1, mitochond...  148     4e-38
+UniRef90_A0A0Q3PGA9 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  147     4e-38
+UniRef90_A0A068RFW1 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  146     5e-38
+UniRef90_Q16VK0 rRNA adenine N(6)-methyltransferase n=6 Tax=Stego...  147     5e-38
+UniRef90_A0A1J7IHG3 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  151     5e-38
+UniRef90_A0A0C4E9U6 Uncharacterized protein n=1 Tax=Magnaporthiop...  150     6e-38
+UniRef90_UPI000B8F381D dimethyladenosine transferase 1, mitochond...  146     8e-38
+UniRef90_UPI0006CED0BB mitochondrial dimethyladenosine transferas...  146     8e-38
+UniRef90_UPI000BBD8712 dimethyladenosine transferase 1, mitochond...  147     8e-38
+UniRef90_A0A1A8A6G9 rRNA adenine N(6)-methyltransferase n=7 Tax=N...  146     8e-38
+UniRef90_A0A2J7QBC4 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  146     9e-38
+UniRef90_UPI0007B95316 mitochondrial dimethyladenosine transferas...  146     9e-38
+UniRef90_UPI0008744C5E dimethyladenosine transferase 1, mitochond...  146     9e-38
+UniRef90_UPI00045DFC78 dimethyladenosine transferase 1, mitochond...  146     9e-38
+UniRef90_U3KDD7 rRNA adenine N(6)-methyltransferase n=14 Tax=Neog...  146     1e-37
+UniRef90_UPI0004D0A1B7 dimethyladenosine transferase 1, mitochond...  146     1e-37
+UniRef90_A0A182IU38 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  146     1e-37
+UniRef90_H2YRF1 rRNA adenine N(6)-methyltransferase n=1 Tax=Ciona...  147     1e-37
+UniRef90_A0A099Z1B5 rRNA adenine N(6)-methyltransferase (Fragment...  145     2e-37
+UniRef90_UPI0003C911B7 dimethyladenosine transferase 1, mitochond...  145     2e-37
+UniRef90_Q28HM1 Dimethyladenosine transferase 1, mitochondrial n=...  145     2e-37
+UniRef90_A0A2P6NBR1 Uncharacterized protein n=1 Tax=Planoprotoste...  150     2e-37
+UniRef90_A0A2M4BSR5 rRNA adenine N(6)-methyltransferase n=6 Tax=N...  146     2e-37
+UniRef90_UPI0008135CD7 dimethyladenosine transferase 1, mitochond...  145     2e-37
+UniRef90_A0A0S7KTH1 rRNA adenine N(6)-methyltransferase (Fragment...  146     2e-37
+UniRef90_A0A2D0RLK2 rRNA adenine N(6)-methyltransferase n=2 Tax=I...  145     2e-37
+UniRef90_W6UR88 rRNA adenine N(6)-methyltransferase n=2 Tax=Echin...  151     3e-37
+UniRef90_K9IIX7 rRNA adenine N(6)-methyltransferase n=2 Tax=Desmo...  145     3e-37
+UniRef90_UPI0007F8722A dimethyladenosine transferase 1, mitochond...  145     3e-37
+UniRef90_A0A2K6GYM8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  145     3e-37
+UniRef90_A0A1W4Y451 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  145     3e-37
+UniRef90_B4N4L6 rRNA adenine N(6)-methyltransferase n=1 Tax=Droso...  145     3e-37
+UniRef90_I3LVN4 rRNA adenine N(6)-methyltransferase n=3 Tax=Sus s...  145     3e-37
+UniRef90_UPI0009B4D275 dimethyladenosine transferase 1, mitochond...  145     4e-37
+UniRef90_A0A286XY21 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  144     5e-37
+UniRef90_A0A0R3X8Y6 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  145     5e-37
+UniRef90_B3RWS2 rRNA adenine N(6)-methyltransferase n=1 Tax=Trich...  143     5e-37
+UniRef90_UPI00032AE00B dimethyladenosine transferase 1, mitochond...  144     6e-37
+UniRef90_A0A2H1W125 rRNA adenine N(6)-methyltransferase n=2 Tax=S...  143     8e-37
+UniRef90_K7JCA6 rRNA adenine N(6)-methyltransferase n=2 Tax=Ptero...  141     9e-37
+UniRef90_G1PI08 rRNA adenine N(6)-methyltransferase n=4 Tax=Vespe...  143     9e-37
+UniRef90_Q8WVM0 Dimethyladenosine transferase 1, mitochondrial n=...  143     9e-37
+UniRef90_A0A087TKM6 rRNA adenine N(6)-methyltransferase (Fragment...  145     1e-36
+UniRef90_UPI000C255AAE dimethyladenosine transferase 1, mitochond...  143     1e-36
+UniRef90_UPI00097D48DC dimethyladenosine transferase 1, mitochond...  143     1e-36
+UniRef90_UPI000B92792B dimethyladenosine transferase 1, mitochond...  143     1e-36
+UniRef90_A0A194XMK3 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  149     1e-36
+UniRef90_A0A091QSU1 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  143     1e-36
+UniRef90_A0A1B3PDA8 rRNA adenine N(6)-methyltransferase (Fragment...  143     1e-36
+UniRef90_A0A1U7QH46 rRNA adenine N(6)-methyltransferase n=2 Tax=M...  143     1e-36
+UniRef90_A0A1V9XD58 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  143     1e-36
+UniRef90_A0A1V4JL64 rRNA adenine N(6)-methyltransferase n=2 Tax=P...  145     2e-36
+UniRef90_UPI00033457C2 dimethyladenosine transferase 1, mitochond...  143     2e-36
+UniRef90_A0A250XYW0 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  143     2e-36
+UniRef90_A0A1U7U572 rRNA adenine N(6)-methyltransferase n=3 Tax=T...  143     2e-36
+UniRef90_A0A2I0MVE0 rRNA adenine N(6)-methyltransferase n=2 Tax=N...  142     2e-36
+UniRef90_U3IFC2 rRNA adenine N(6)-methyltransferase n=3 Tax=Anati...  142     3e-36
+UniRef90_UPI0008113221 mitochondrial dimethyladenosine transferas...  143     3e-36
+UniRef90_A0A093CEG5 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  142     3e-36
+UniRef90_A0A094ZEZ1 rRNA adenine N(6)-methyltransferase (Fragment...  143     3e-36
+UniRef90_A0A0D2X160 rRNA adenine N(6)-methyltransferase n=2 Tax=C...  144     3e-36
+UniRef90_F6W4I0 rRNA adenine N(6)-methyltransferase n=6 Tax=Boreo...  142     3e-36
+UniRef90_UPI000333D00D dimethyladenosine transferase 1, mitochond...  142     3e-36
+UniRef90_A0A093HSF2 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  142     4e-36
+UniRef90_F6SN27 rRNA adenine N(6)-methyltransferase n=1 Tax=Ciona...  143     4e-36
+UniRef90_A0A1J1IMQ0 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  141     5e-36
+UniRef90_A0A1S3G0X3 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  141     5e-36
+UniRef90_A0A151Z360 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  144     5e-36
+UniRef90_UPI0003331BDB dimethyladenosine transferase 1, mitochond...  142     5e-36
+UniRef90_A0A182Q3Q8 rRNA adenine N(6)-methyltransferase n=2 Tax=N...  141     7e-36
+UniRef90_A0A1U7RLZ8 rRNA adenine N(6)-methyltransferase n=4 Tax=C...  141     7e-36
+UniRef90_G3TCG6 rRNA adenine N(6)-methyltransferase n=2 Tax=Afrot...  141     8e-36
+UniRef90_A0A0C3GYS4 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  146     8e-36
+UniRef90_UPI00038BB79A dimethyladenosine transferase 1, mitochond...  141     9e-36
+UniRef90_UPI000572E119 mitochondrial dimethyladenosine transferas...  138     9e-36
+UniRef90_A0A0R3UG21 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  141     1e-35
+UniRef90_A0A0P6B6P3 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  141     1e-35
+UniRef90_UPI0002658E16 dimethyladenosine transferase 1, mitochond...  141     1e-35
+UniRef90_UPI0003F15DD4 dimethyladenosine transferase 1, mitochond...  140     1e-35
+UniRef90_S4PK95 rRNA adenine N(6)-methyltransferase (Fragment) n=...  139     1e-35
+UniRef90_UPI0003F064B6 dimethyladenosine transferase 1, mitochond...  140     2e-35
+UniRef90_E2RQC3 rRNA adenine N(6)-methyltransferase n=15 Tax=Carn...  140     2e-35
+UniRef90_UPI00067CCE8C dimethyladenosine transferase 1, mitochond...  140     2e-35
+UniRef90_A0A0V1KBV7 rRNA adenine N(6)-methyltransferase n=3 Tax=T...  146     2e-35
+UniRef90_UPI0004571BB6 dimethyladenosine transferase 1, mitochond...  138     3e-35
+UniRef90_A0A1B3PDG1 rRNA adenine N(6)-methyltransferase (Fragment...  140     3e-35
+UniRef90_J3NMN9 rRNA adenine N(6)-methyltransferase n=1 Tax=Gaeum...  145     3e-35
+UniRef90_UPI00077FAD7D mitochondrial dimethyladenosine transferas...  140     4e-35
+UniRef90_UPI0003510009 dimethyladenosine transferase 1, mitochond...  138     4e-35
+UniRef90_G5BQ74 rRNA adenine N(6)-methyltransferase n=1 Tax=Heter...  141     4e-35
+UniRef90_A0A2I0MVD8 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  138     4e-35
+UniRef90_A0A1S2ZBC1 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  140     4e-35
+UniRef90_A0A212F7Z9 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  139     4e-35
+UniRef90_UPI000A284676 dimethyladenosine transferase 1, mitochond...  139     4e-35
+UniRef90_I3N709 rRNA adenine N(6)-methyltransferase n=2 Tax=Marmo...  139     5e-35
+UniRef90_A0A1S3H4I0 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  139     5e-35
+UniRef90_A0A091WAW2 rRNA adenine N(6)-methyltransferase n=33 Tax=...  139     5e-35
+UniRef90_UPI000BAF29B6 dimethyladenosine transferase 1, mitochond...  138     6e-35
+UniRef90_G1KDU6 rRNA adenine N(6)-methyltransferase n=1 Tax=Anoli...  139     6e-35
+UniRef90_A0A0G2JZ68 rRNA adenine N(6)-methyltransferase n=3 Tax=M...  139     6e-35
+UniRef90_K7FGX5 rRNA adenine N(6)-methyltransferase n=4 Tax=Crypt...  138     6e-35
+UniRef90_Q2TBQ0-2 Isoform 2 of Mitochondrial dimethyladenosine tr...  135     7e-35
+UniRef90_A0A1Y2WQ14 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  143     8e-35
+UniRef90_E1BWX0 rRNA adenine N(6)-methyltransferase n=11 Tax=Gall...  138     9e-35
+UniRef90_X1WTM3 rRNA adenine N(6)-methyltransferase n=1 Tax=Acyrt...  134     1e-34
+UniRef90_F0ZVM9 rRNA adenine N(6)-methyltransferase n=1 Tax=Dicty...  141     1e-34
+UniRef90_Q7T0W5 Dimethyladenosine transferase 1, mitochondrial n=...  138     1e-34
+UniRef90_T1K198 rRNA adenine N(6)-methyltransferase n=1 Tax=Tetra...  139     1e-34
+UniRef90_H0X5B1 rRNA adenine N(6)-methyltransferase n=3 Tax=Otole...  138     1e-34
+UniRef90_UPI000A1C5175 dimethyladenosine transferase 1, mitochond...  138     1e-34
+UniRef90_F1QQ24 rRNA adenine N(6)-methyltransferase n=2 Tax=Danio...  136     1e-34
+UniRef90_G1T2Q1 rRNA adenine N(6)-methyltransferase n=3 Tax=Oryct...  138     1e-34
+UniRef90_A0A137P993 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  136     1e-34
+UniRef90_UPI0007A6DD2F dimethyladenosine transferase 1, mitochond...  138     1e-34
+UniRef90_A0A0N5B2N2 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  138     2e-34
+UniRef90_A0A224XXN1 rRNA adenine N(6)-methyltransferase (Fragment...  133     2e-34
+UniRef90_A0A0S7KU75 rRNA adenine N(6)-methyltransferase (Fragment...  136     2e-34
+UniRef90_A0A177BE93 rRNA adenine N(6)-methyltransferase n=1 Tax=I...  137     2e-34
+UniRef90_UPI0005D0A49E dimethyladenosine transferase 1, mitochond...  137     2e-34
+UniRef90_A0A1A9X407 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  138     3e-34
+UniRef90_H2TIH2 rRNA adenine N(6)-methyltransferase n=1 Tax=Takif...  135     3e-34
+UniRef90_A0A0V1CMP1 Protein CLEC16A (Fragment) n=2 Tax=Trichinell...  142     3e-34
+UniRef90_UPI000C79F8A6 dimethyladenosine transferase 1, mitochond...  136     3e-34
+UniRef90_UPI00093EA6F5 dimethyladenosine transferase 1, mitochond...  136     3e-34
+UniRef90_D4D1F2 Uncharacterized protein n=5 Tax=Trichophyton TaxI...  141     4e-34
+UniRef90_Q8JZM0 Dimethyladenosine transferase 1, mitochondrial n=...  136     4e-34
+UniRef90_A0A2P5HM07 Uncharacterized protein n=1 Tax=Diaporthe hel...  141     5e-34
+UniRef90_UPI000441D881 dimethyladenosine transferase 1, mitochond...  136     5e-34
+
+
+>UniRef90_P14908 Mitochondrial transcription factor 1 n=18 Tax=Saccharomyces 
+TaxID=4930 RepID=MTF1_YEAST
+Length=341
+
+ Score = 494 bits (1273),  Expect = 5e-174, Method: Composition-based stats.
+ Identities = 340/340 (100%), Positives = 340/340 (100%), Gaps = 0/340 (0%)
+
+Query  1    SVPIPGIKDISKLKFFYGFKYLWNPTVYNKIFDKLDLTKTYKHPEELKVLDLYPGVGIQS  60
+            SVPIPGIKDISKLKFFYGFKYLWNPTVYNKIFDKLDLTKTYKHPEELKVLDLYPGVGIQS
+Sbjct  2    SVPIPGIKDISKLKFFYGFKYLWNPTVYNKIFDKLDLTKTYKHPEELKVLDLYPGVGIQS  61
+
+Query  61   AIFYNKYCPRQYSLLEKRSSLYKFLNAKFEGSPLQILKRDPYDWSTYSNLIDEERIFVPE  120
+            AIFYNKYCPRQYSLLEKRSSLYKFLNAKFEGSPLQILKRDPYDWSTYSNLIDEERIFVPE
+Sbjct  62   AIFYNKYCPRQYSLLEKRSSLYKFLNAKFEGSPLQILKRDPYDWSTYSNLIDEERIFVPE  121
+
+Query  121  VQSSDHINDKFLTVANVTGEGSEGLIMQWLSCIGNKNWLYRFGKVKMLLWMPSTTARKLL  180
+            VQSSDHINDKFLTVANVTGEGSEGLIMQWLSCIGNKNWLYRFGKVKMLLWMPSTTARKLL
+Sbjct  122  VQSSDHINDKFLTVANVTGEGSEGLIMQWLSCIGNKNWLYRFGKVKMLLWMPSTTARKLL  181
+
+Query  181  ARPGMHSRSKCSVVREAFTDTKLIAISDANELKGFDSQCIEEWDPILFSAAEIWPTKGKP  240
+            ARPGMHSRSKCSVVREAFTDTKLIAISDANELKGFDSQCIEEWDPILFSAAEIWPTKGKP
+Sbjct  182  ARPGMHSRSKCSVVREAFTDTKLIAISDANELKGFDSQCIEEWDPILFSAAEIWPTKGKP  241
+
+Query  241  IALVEMDPIDFDFDVDNWDYVTRHLMILKRTPLNTVMDSLGHGGQQYFNSRITDKDLLKK  300
+            IALVEMDPIDFDFDVDNWDYVTRHLMILKRTPLNTVMDSLGHGGQQYFNSRITDKDLLKK
+Sbjct  242  IALVEMDPIDFDFDVDNWDYVTRHLMILKRTPLNTVMDSLGHGGQQYFNSRITDKDLLKK  301
+
+Query  301  CPIDLTNDEFIYLTKLFMEWPFKPDILMDFVDMYQTEHSG  340
+            CPIDLTNDEFIYLTKLFMEWPFKPDILMDFVDMYQTEHSG
+Sbjct  302  CPIDLTNDEFIYLTKLFMEWPFKPDILMDFVDMYQTEHSG  341
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.154    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0471    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2648667095460
+Results from round 3
+
+
+Query= 6ymw_B
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+UniRef90_H0GZN9 Mtf1p n=1 Tax=Saccharomyces cerevisiae x Saccharo...  380     7e-129
+UniRef90_P14908 Mitochondrial transcription factor 1 n=18 Tax=Sac...  379     2e-128
+UniRef90_A0A0L8RDP3 MTF1-like protein n=1 Tax=Saccharomyces eubay...  367     7e-124
+UniRef90_J8Q3D4 Mtf1p n=1 Tax=Saccharomyces arboricola (strain H-...  367     8e-124
+UniRef90_C5E0U8 rRNA adenine N(6)-methyltransferase n=2 Tax=Zygos...  346     2e-115
+UniRef90_A0A1Q3AKQ9 rRNA adenine N(6)-methyltransferase n=1 Tax=Z...  346     2e-115
+UniRef90_G8ZPD9 rRNA adenine N(6)-methyltransferase n=1 Tax=Torul...  345     2e-115
+UniRef90_A0A1S7HY40 rRNA adenine N(6)-methyltransferase n=4 Tax=Z...  342     8e-114
+UniRef90_A0A1G4INA1 LAMI_0A03686g1_1 n=1 Tax=Lachancea mirantina ...  338     2e-112
+UniRef90_C5DF87 rRNA adenine N(6)-methyltransferase n=1 Tax=Lacha...  336     9e-112
+UniRef90_UPI000BBEEBAD dimethyladenosine transferase 1, mitochond...  333     2e-110
+UniRef90_A7TIS4 rRNA adenine N(6)-methyltransferase n=1 Tax=Vande...  332     4e-110
+UniRef90_P87292 Mitochondrial transcription factor 1 n=1 Tax=Lach...  332     7e-110
+UniRef90_A0A0P1KL66 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  331     8e-110
+UniRef90_G8BVF5 rRNA adenine N(6)-methyltransferase n=1 Tax=Tetra...  331     1e-109
+UniRef90_A0A0R4IU10 rRNA adenine N(6)-methyltransferase n=3 Tax=D...  331     2e-109
+UniRef90_A0A1G4JQ47 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  329     9e-109
+UniRef90_I3JMW9 rRNA adenine N(6)-methyltransferase n=6 Tax=Pseud...  328     1e-108
+UniRef90_UPI000497A5EA dimethyladenosine transferase 1, mitochond...  328     1e-108
+UniRef90_UPI0009B397B8 dimethyladenosine transferase 1, mitochond...  328     3e-108
+UniRef90_UPI000901A6A8 dimethyladenosine transferase 1, mitochond...  328     3e-108
+UniRef90_A0A1G4KN05 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  327     3e-108
+UniRef90_UPI000495E704 dimethyladenosine transferase 1, mitochond...  327     5e-108
+UniRef90_A0A1U7QH46 rRNA adenine N(6)-methyltransferase n=2 Tax=M...  327     7e-108
+UniRef90_A0A0P6K794 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  330     1e-107
+UniRef90_UPI000CD63137 dimethyladenosine transferase 1, mitochond...  326     1e-107
+UniRef90_A0A1G4MD24 LAFE_0E06634g1_1 n=1 Tax=Lachancea fermentati...  326     1e-107
+UniRef90_G3NUW5 rRNA adenine N(6)-methyltransferase n=1 Tax=Gaste...  326     1e-107
+UniRef90_A0A1A8A6G9 rRNA adenine N(6)-methyltransferase n=7 Tax=N...  326     2e-107
+UniRef90_G1PI08 rRNA adenine N(6)-methyltransferase n=4 Tax=Vespe...  325     2e-107
+UniRef90_UPI00032900C8 dimethyladenosine transferase 1, mitochond...  326     2e-107
+UniRef90_A0A091EZM0 rRNA adenine N(6)-methyltransferase n=13 Tax=...  325     3e-107
+UniRef90_UPI000556F68B dimethyladenosine transferase 1, mitochond...  326     3e-107
+UniRef90_H3AXD8 rRNA adenine N(6)-methyltransferase n=1 Tax=Latim...  325     3e-107
+UniRef90_A0A286XY21 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  325     4e-107
+UniRef90_Q28HM1 Dimethyladenosine transferase 1, mitochondrial n=...  325     4e-107
+UniRef90_H2MSD5 rRNA adenine N(6)-methyltransferase n=3 Tax=Oryzi...  325     5e-107
+UniRef90_U3KDD7 rRNA adenine N(6)-methyltransferase n=14 Tax=Neog...  324     6e-107
+UniRef90_UPI0009B4D275 dimethyladenosine transferase 1, mitochond...  325     7e-107
+UniRef90_A0A0Q3PGA9 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  324     8e-107
+UniRef90_UPI00032AE00B dimethyladenosine transferase 1, mitochond...  324     9e-107
+UniRef90_UPI0007BA79EF LOW QUALITY PROTEIN: dimethyladenosine tra...  324     9e-107
+UniRef90_U3IFC2 rRNA adenine N(6)-methyltransferase n=3 Tax=Anati...  324     1e-106
+UniRef90_UPI0003F0EC5B dimethyladenosine transferase 1, mitochond...  322     1e-106
+UniRef90_UPI000CF7E6BA dimethyladenosine transferase 1, mitochond...  323     1e-106
+UniRef90_UPI000B8F381D dimethyladenosine transferase 1, mitochond...  323     2e-106
+UniRef90_A0A1G4JSJ5 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  323     2e-106
+UniRef90_Q2TBQ0 Mitochondrial dimethyladenosine transferase 1 n=1...  322     2e-106
+UniRef90_UPI0008135CD7 dimethyladenosine transferase 1, mitochond...  323     3e-106
+UniRef90_UPI0003C838EF dimethyladenosine transferase 1, mitochond...  323     3e-106
+UniRef90_A0A2K6GYM8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  322     3e-106
+UniRef90_UPI00045DFC78 dimethyladenosine transferase 1, mitochond...  322     3e-106
+UniRef90_A0A1U7U572 rRNA adenine N(6)-methyltransferase n=3 Tax=T...  322     4e-106
+UniRef90_I3LVN4 rRNA adenine N(6)-methyltransferase n=3 Tax=Sus s...  322     4e-106
+UniRef90_A0A091QSU1 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  322     4e-106
+UniRef90_Q8WVM0 Dimethyladenosine transferase 1, mitochondrial n=...  322     4e-106
+UniRef90_A0A147ABG2 rRNA adenine N(6)-methyltransferase n=2 Tax=F...  323     4e-106
+UniRef90_A0A091DQS8 rRNA adenine N(6)-methyltransferase n=3 Tax=H...  322     5e-106
+UniRef90_G3TCG6 rRNA adenine N(6)-methyltransferase n=2 Tax=Afrot...  322     5e-106
+UniRef90_UPI0003C911B7 dimethyladenosine transferase 1, mitochond...  322     5e-106
+UniRef90_UPI00094E9688 dimethyladenosine transferase 1, mitochond...  322     8e-106
+UniRef90_UPI0007B95316 mitochondrial dimethyladenosine transferas...  322     9e-106
+UniRef90_A0A093HSF2 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  321     1e-105
+UniRef90_I3N709 rRNA adenine N(6)-methyltransferase n=2 Tax=Marmo...  321     1e-105
+UniRef90_F6W4I0 rRNA adenine N(6)-methyltransferase n=6 Tax=Boreo...  321     1e-105
+UniRef90_K9IIX7 rRNA adenine N(6)-methyltransferase n=2 Tax=Desmo...  321     1e-105
+UniRef90_UPI00038BB79A dimethyladenosine transferase 1, mitochond...  321     2e-105
+UniRef90_UPI000719BCD4 dimethyladenosine transferase 1, mitochond...  320     2e-105
+UniRef90_G1KDU6 rRNA adenine N(6)-methyltransferase n=1 Tax=Anoli...  320     2e-105
+UniRef90_UPI00033178BA dimethyladenosine transferase 1, mitochond...  320     2e-105
+UniRef90_A0A1W4Y451 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  321     2e-105
+UniRef90_UPI0003F15DD4 dimethyladenosine transferase 1, mitochond...  320     2e-105
+UniRef90_E1BWX0 rRNA adenine N(6)-methyltransferase n=11 Tax=Gall...  320     2e-105
+UniRef90_A0A1S3SND5 rRNA adenine N(6)-methyltransferase n=5 Tax=S...  320     3e-105
+UniRef90_K7FGX5 rRNA adenine N(6)-methyltransferase n=4 Tax=Crypt...  320     3e-105
+UniRef90_H2TIH3 rRNA adenine N(6)-methyltransferase n=2 Tax=Takif...  320     3e-105
+UniRef90_A0A0G2JZ68 rRNA adenine N(6)-methyltransferase n=3 Tax=M...  320     3e-105
+UniRef90_UPI0008744C5E dimethyladenosine transferase 1, mitochond...  320     3e-105
+UniRef90_UPI000576ED22 dimethyladenosine transferase 1, mitochond...  322     3e-105
+UniRef90_A0A2D0RLK2 rRNA adenine N(6)-methyltransferase n=2 Tax=I...  320     3e-105
+UniRef90_UPI00033457C2 dimethyladenosine transferase 1, mitochond...  319     3e-105
+UniRef90_Q8JZM0 Dimethyladenosine transferase 1, mitochondrial n=...  320     4e-105
+UniRef90_UPI0007F8722A dimethyladenosine transferase 1, mitochond...  320     4e-105
+UniRef90_A0A2I0MVE0 rRNA adenine N(6)-methyltransferase n=2 Tax=N...  319     6e-105
+UniRef90_UPI0004D0A1B7 dimethyladenosine transferase 1, mitochond...  319     8e-105
+UniRef90_A0A0S7KTH1 rRNA adenine N(6)-methyltransferase (Fragment...  320     8e-105
+UniRef90_UPI0003331BDB dimethyladenosine transferase 1, mitochond...  319     8e-105
+UniRef90_UPI000643EF46 dimethyladenosine transferase 1, mitochond...  319     1e-104
+UniRef90_A0A1S3G0X3 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  318     2e-104
+UniRef90_UPI000B90A9AF dimethyladenosine transferase 1, mitochond...  317     2e-104
+UniRef90_A0A099Z1B5 rRNA adenine N(6)-methyltransferase (Fragment...  317     2e-104
+UniRef90_UPI0008144F67 dimethyladenosine transferase 1, mitochond...  318     2e-104
+UniRef90_UPI000A1C5175 dimethyladenosine transferase 1, mitochond...  318     2e-104
+UniRef90_G1T2Q1 rRNA adenine N(6)-methyltransferase n=3 Tax=Oryct...  317     3e-104
+UniRef90_A0A250XYW0 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  317     3e-104
+UniRef90_A0A091WAW2 rRNA adenine N(6)-methyltransferase n=33 Tax=...  317     4e-104
+UniRef90_E2RQC3 rRNA adenine N(6)-methyltransferase n=15 Tax=Carn...  317     4e-104
+UniRef90_A0A1S2ZBC1 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  318     5e-104
+UniRef90_UPI0003F064B6 dimethyladenosine transferase 1, mitochond...  317     6e-104
+UniRef90_UPI000BBD8712 dimethyladenosine transferase 1, mitochond...  317     7e-104
+UniRef90_UPI000A284676 dimethyladenosine transferase 1, mitochond...  316     1e-103
+UniRef90_UPI000C79F8A6 dimethyladenosine transferase 1, mitochond...  316     1e-103
+UniRef90_UPI0007A6DD2F dimethyladenosine transferase 1, mitochond...  317     1e-103
+UniRef90_A0A1U7RLZ8 rRNA adenine N(6)-methyltransferase n=4 Tax=C...  316     1e-103
+UniRef90_A0A093CEG5 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  316     1e-103
+UniRef90_A0A1V4JL64 rRNA adenine N(6)-methyltransferase n=2 Tax=P...  319     1e-103
+UniRef90_G9KT17 rRNA adenine N(6)-methyltransferase (Fragment) n=...  316     1e-103
+UniRef90_A0A2I4BEB3 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  315     3e-103
+UniRef90_A0A067RF29 rRNA adenine N(6)-methyltransferase n=1 Tax=Z...  315     3e-103
+UniRef90_UPI000333D00D dimethyladenosine transferase 1, mitochond...  314     5e-103
+UniRef90_A0A1G4J424 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  314     5e-103
+UniRef90_UPI00097D48DC dimethyladenosine transferase 1, mitochond...  314     1e-102
+UniRef90_J7RR28 rRNA adenine N(6)-methyltransferase n=1 Tax=Kazac...  313     1e-102
+UniRef90_A0A0C7ML09 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  313     1e-102
+UniRef90_Q7T0W5 Dimethyladenosine transferase 1, mitochondrial n=...  312     4e-102
+UniRef90_G0VC72 rRNA adenine N(6)-methyltransferase n=1 Tax=Naumo...  311     7e-102
+UniRef90_A0A2C9JQC7 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  311     1e-101
+UniRef90_A0A0B7BIC6 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  311     2e-101
+UniRef90_UPI00076FD806 dimethyladenosine transferase 1, mitochond...  310     2e-101
+UniRef90_UPI00065B9326 mitochondrial dimethyladenosine transferas...  311     2e-101
+UniRef90_A0A0K8RW85 rRNA adenine N(6)-methyltransferase n=8 Tax=C...  310     2e-101
+UniRef90_Q6FIW3 Uncharacterized protein n=2 Tax=Candida glabrata ...  309     3e-101
+UniRef90_UPI000C879816 dimethyladenosine transferase 1, mitochond...  310     5e-101
+UniRef90_A0A2P8YBT2 Dimethyladenosine transferase 1 n=1 Tax=Blatt...  309     5e-101
+UniRef90_A0A2H8TQG3 rRNA adenine N(6)-methyltransferase n=3 Tax=A...  309     6e-101
+UniRef90_A0A171AGT9 rRNA adenine N(6)-methyltransferase (Fragment...  308     6e-101
+UniRef90_G0WHM3 rRNA adenine N(6)-methyltransferase n=1 Tax=Naumo...  309     7e-101
+UniRef90_UPI0009E2F20B dimethyladenosine transferase 1, mitochond...  308     9e-101
+UniRef90_UPI00074FFC8F dimethyladenosine transferase 1, mitochond...  308     1e-100
+UniRef90_F7EKY1 rRNA adenine N(6)-methyltransferase n=1 Tax=Monod...  308     2e-100
+UniRef90_UPI00093EA6F5 dimethyladenosine transferase 1, mitochond...  308     2e-100
+UniRef90_UPI0007A6FA9C dimethyladenosine transferase 1, mitochond...  309     2e-100
+UniRef90_UPI000441D881 dimethyladenosine transferase 1, mitochond...  307     2e-100
+UniRef90_UPI000C6E3282 dimethyladenosine transferase 1, mitochond...  307     2e-100
+UniRef90_A0A0A9WG27 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  307     2e-100
+UniRef90_UPI0006B0FA36 dimethyladenosine transferase 1, mitochond...  308     4e-100
+UniRef90_H0X5B1 rRNA adenine N(6)-methyltransferase n=3 Tax=Otole...  307     5e-100
+UniRef90_W4ZKF6 rRNA adenine N(6)-methyltransferase n=1 Tax=Stron...  305     6e-100
+UniRef90_A0A0L7RE23 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  306     1e-99 
+UniRef90_UPI0006433311 dimethyladenosine transferase 1, mitochond...  307     1e-99 
+UniRef90_H2AQI6 rRNA adenine N(6)-methyltransferase n=1 Tax=Kazac...  305     3e-99 
+UniRef90_A0A158NG55 rRNA adenine N(6)-methyltransferase n=7 Tax=A...  305     3e-99 
+UniRef90_UPI00062688E5 dimethyladenosine transferase 1, mitochond...  304     3e-99 
+UniRef90_T1EF65 rRNA adenine N(6)-methyltransferase n=1 Tax=Helob...  304     3e-99 
+UniRef90_A0A0C9Q9U8 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  305     4e-99 
+UniRef90_E9FZG5 rRNA adenine N(6)-methyltransferase n=1 Tax=Daphn...  303     5e-99 
+UniRef90_G5BQ74 rRNA adenine N(6)-methyltransferase n=1 Tax=Heter...  307     5e-99 
+UniRef90_UPI000853F409 dimethyladenosine transferase 1, mitochond...  308     6e-99 
+UniRef90_UPI00073D244F mitochondrial dimethyladenosine transferas...  303     7e-99 
+UniRef90_E2A745 rRNA adenine N(6)-methyltransferase n=1 Tax=Campo...  304     7e-99 
+UniRef90_UPI000771DEC0 dimethyladenosine transferase 1, mitochond...  303     1e-98 
+UniRef90_UPI00021A634C dimethyladenosine transferase 1, mitochond...  303     1e-98 
+UniRef90_A0A0L7KTT3 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  303     1e-98 
+UniRef90_H9JR52 rRNA adenine N(6)-methyltransferase n=1 Tax=Bomby...  302     2e-98 
+UniRef90_UPI00063F254C dimethyladenosine transferase 1, mitochond...  302     5e-98 
+UniRef90_UPI000718AD72 mitochondrial dimethyladenosine transferas...  301     7e-98 
+UniRef90_UPI000B97E81C dimethyladenosine transferase 1, mitochond...  302     7e-98 
+UniRef90_U4U6N5 rRNA adenine N(6)-methyltransferase n=2 Tax=Dendr...  311     9e-98 
+UniRef90_A0A026WBF3 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  301     1e-97 
+UniRef90_A0A154PPD3 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  300     1e-97 
+UniRef90_B0WLE5 rRNA adenine N(6)-methyltransferase n=2 Tax=Culex...  300     1e-97 
+UniRef90_A0A151INV7 rRNA adenine N(6)-methyltransferase (Fragment...  300     2e-97 
+UniRef90_UPI0006762DEA dimethyladenosine transferase 1, mitochond...  300     2e-97 
+UniRef90_A0A1X6NCN8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  301     3e-97 
+UniRef90_UPI00083BDBC0 dimethyladenosine transferase 1, mitochond...  299     4e-97 
+UniRef90_A0A0J7NU55 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  299     4e-97 
+UniRef90_V4A9D4 rRNA adenine N(6)-methyltransferase n=1 Tax=Lotti...  300     4e-97 
+UniRef90_A0A210QIU6 rRNA adenine N(6)-methyltransferase n=2 Tax=M...  299     5e-97 
+UniRef90_A0A182X039 rRNA adenine N(6)-methyltransferase n=4 Tax=C...  299     6e-97 
+UniRef90_UPI0003510009 dimethyladenosine transferase 1, mitochond...  297     6e-97 
+UniRef90_D6W6C5 rRNA adenine N(6)-methyltransferase n=1 Tax=Tribo...  298     7e-97 
+UniRef90_UPI000C1FF2B1 dimethyladenosine transferase 1, mitochond...  298     8e-97 
+UniRef90_D3BVF6 rRNA adenine N(6)-methyltransferase n=1 Tax=Polys...  301     8e-97 
+UniRef90_UPI0008F9D312 mitochondrial dimethyladenosine transferas...  299     1e-96 
+UniRef90_Q1A705 Dimethyladenosine transferase 1, mitochondrial n=...  298     1e-96 
+UniRef90_Q7PZX0 rRNA adenine N(6)-methyltransferase (Fragment) n=...  301     1e-96 
+UniRef90_UPI000258EA1C dimethyladenosine transferase 1, mitochond...  298     1e-96 
+UniRef90_UPI00096AECE2 LOW QUALITY PROTEIN: dimethyladenosine tra...  298     1e-96 
+UniRef90_A0A182M861 rRNA adenine N(6)-methyltransferase n=5 Tax=C...  301     2e-96 
+UniRef90_E9IE08 rRNA adenine N(6)-methyltransferase (Fragment) n=...  298     2e-96 
+UniRef90_A0A182IU38 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  298     2e-96 
+UniRef90_F1QQ24 rRNA adenine N(6)-methyltransferase n=2 Tax=Danio...  295     2e-96 
+UniRef90_A0A194QV99 rRNA adenine N(6)-methyltransferase n=3 Tax=P...  297     3e-96 
+UniRef90_A0A1X7R906 rRNA adenine N(6)-methyltransferase n=1 Tax=K...  296     4e-96 
+UniRef90_A0A151X248 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  297     4e-96 
+UniRef90_R7T9D9 rRNA adenine N(6)-methyltransferase n=1 Tax=Capit...  296     4e-96 
+UniRef90_A0A2A4J8C7 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  296     6e-96 
+UniRef90_UPI0007384A6D dimethyladenosine transferase 1, mitochond...  296     7e-96 
+UniRef90_B7PHJ2 rRNA adenine N(6)-methyltransferase n=3 Tax=Ixode...  297     7e-96 
+UniRef90_A0A0S7KU75 rRNA adenine N(6)-methyltransferase (Fragment...  294     8e-96 
+UniRef90_A0A0P5FLQ5 rRNA adenine N(6)-methyltransferase n=5 Tax=D...  298     9e-96 
+UniRef90_A0A1Y1KK19 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  295     9e-96 
+UniRef90_A0A2H1W125 rRNA adenine N(6)-methyltransferase n=2 Tax=S...  295     9e-96 
+UniRef90_T1J092 rRNA adenine N(6)-methyltransferase n=1 Tax=Strig...  296     1e-95 
+UniRef90_UPI0005D3CFF6 dimethyladenosine transferase 1, mitochond...  296     1e-95 
+UniRef90_UPI00084035E1 dimethyladenosine transferase 1, mitochond...  295     1e-95 
+UniRef90_T1HMC6 rRNA adenine N(6)-methyltransferase n=1 Tax=Rhodn...  296     1e-95 
+UniRef90_UPI0006CED0BB mitochondrial dimethyladenosine transferas...  295     2e-95 
+UniRef90_Q16VK0 rRNA adenine N(6)-methyltransferase n=6 Tax=Stego...  295     2e-95 
+UniRef90_UPI000B92792B dimethyladenosine transferase 1, mitochond...  295     2e-95 
+UniRef90_UPI0003F104A7 dimethyladenosine transferase 1, mitochond...  294     3e-95 
+UniRef90_UPI0008749DEB dimethyladenosine transferase 1, mitochond...  294     3e-95 
+UniRef90_UPI0009D993F4 dimethyladenosine transferase 1, mitochond...  296     3e-95 
+UniRef90_S4PK95 rRNA adenine N(6)-methyltransferase (Fragment) n=...  293     3e-95 
+UniRef90_A0A2M4BSR5 rRNA adenine N(6)-methyltransferase n=6 Tax=N...  294     4e-95 
+UniRef90_UPI0005F05A43 dimethyladenosine transferase 1, mitochond...  294     5e-95 
+UniRef90_A0A212F7Z9 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  294     5e-95 
+UniRef90_H2TIH2 rRNA adenine N(6)-methyltransferase n=1 Tax=Takif...  291     5e-95 
+UniRef90_UPI0004571BB6 dimethyladenosine transferase 1, mitochond...  291     5e-95 
+UniRef90_W5NJM2 rRNA adenine N(6)-methyltransferase n=1 Tax=Lepis...  293     7e-95 
+UniRef90_UPI0009953B95 dimethyladenosine transferase 1, mitochond...  293     8e-95 
+UniRef90_UPI00083C1E55 dimethyladenosine transferase 1, mitochond...  293     8e-95 
+UniRef90_UPI0005CE8F62 dimethyladenosine transferase 1, mitochond...  293     8e-95 
+UniRef90_UPI0004CCE81D dimethyladenosine transferase 1, mitochond...  294     1e-94 
+UniRef90_A0A0L8HX40 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  293     1e-94 
+UniRef90_UPI000A30E114 dimethyladenosine transferase 1, mitochond...  291     1e-94 
+UniRef90_A0A1B6DY39 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  293     1e-94 
+UniRef90_Q1A706 rRNA adenine N(6)-methyltransferase n=2 Tax=Acant...  291     1e-94 
+UniRef90_G1NJG6 rRNA adenine N(6)-methyltransferase n=1 Tax=Melea...  290     2e-94 
+UniRef90_A0A0J9XGD3 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  292     2e-94 
+UniRef90_UPI0009A353F8 dimethyladenosine transferase 1, mitochond...  291     2e-94 
+UniRef90_A0A226F5V7 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  293     3e-94 
+UniRef90_A0A1W4XU91 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  291     3e-94 
+UniRef90_UPI0005D0A49E dimethyladenosine transferase 1, mitochond...  291     3e-94 
+UniRef90_A0A291L1S0 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  292     4e-94 
+UniRef90_UPI00067CCE8C dimethyladenosine transferase 1, mitochond...  291     4e-94 
+UniRef90_UPI0006C9CD66 dimethyladenosine transferase 1, mitochond...  292     5e-94 
+UniRef90_A0A2I0MVD8 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  289     5e-94 
+UniRef90_A0A1D2ML59 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  293     5e-94 
+UniRef90_A0A1B0CTH1 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  291     8e-94 
+UniRef90_A0A182Q3Q8 rRNA adenine N(6)-methyltransferase n=2 Tax=N...  291     9e-94 
+UniRef90_UPI000626E7C0 mitochondrial dimethyladenosine transferas...  291     9e-94 
+UniRef90_UPI0005F3CAA8 dimethyladenosine transferase 1, mitochond...  290     1e-93 
+UniRef90_UPI0007BAA01D LOW QUALITY PROTEIN: dimethyladenosine tra...  287     1e-93 
+UniRef90_E0W102 rRNA adenine N(6)-methyltransferase n=1 Tax=Pedic...  290     2e-93 
+UniRef90_A0A2H3JUU9 rRNA adenine N(6)-methyltransferase n=1 Tax=W...  291     2e-93 
+UniRef90_UPI000C255AAE dimethyladenosine transferase 1, mitochond...  290     2e-93 
+UniRef90_UPI0006232CAE mitochondrial dimethyladenosine transferas...  290     2e-93 
+UniRef90_UPI0006451FBE hypothetical protein n=1 Tax=Acytostelium ...  292     2e-93 
+UniRef90_A0A1Y3BSA2 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  290     3e-93 
+UniRef90_UPI00046222AF S-adenosyl-L-methionine-dependent methyltr...  291     3e-93 
+UniRef90_UPI0007D93588 dimethyladenosine transferase 1, mitochond...  289     5e-93 
+UniRef90_A0A1D1VNZ5 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  288     5e-93 
+UniRef90_P91424 Dimethyladenosine transferase 1, mitochondrial n=...  289     8e-93 
+UniRef90_UPI0009400A30 dimethyladenosine transferase 1, mitochond...  287     1e-92 
+UniRef90_A0A1W0WCU2 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  287     1e-92 
+UniRef90_A0A087TKM6 rRNA adenine N(6)-methyltransferase (Fragment...  290     2e-92 
+UniRef90_A0A088AQJ2 rRNA adenine N(6)-methyltransferase n=3 Tax=A...  287     2e-92 
+UniRef90_A0A1B7NH06 rRNA adenine N(6)-methyltransferase n=2 Tax=R...  290     2e-92 
+UniRef90_A0A2G5VHP1 rRNA adenine N(6)-methyltransferase n=5 Tax=C...  288     2e-92 
+UniRef90_A0A165BE25 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  288     2e-92 
+UniRef90_UPI000711E2DF dimethyladenosine transferase 1, mitochond...  287     2e-92 
+UniRef90_A0A146N484 rRNA adenine N(6)-methyltransferase (Fragment...  288     3e-92 
+UniRef90_A0A0V0ZFY3 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  286     4e-92 
+UniRef90_A0A2H2ILF3 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  287     5e-92 
+UniRef90_F8NUC9 rRNA adenine N(6)-methyltransferase n=2 Tax=Serpu...  287     7e-92 
+UniRef90_J4GJ28 rRNA adenine N(6)-methyltransferase n=1 Tax=Fibro...  287     9e-92 
+UniRef90_A0A2J7QBC4 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  285     2e-91 
+UniRef90_UPI00077FAD7D mitochondrial dimethyladenosine transferas...  286     2e-91 
+UniRef90_A0A2P2I1E2 Dimethyladenosine transferase 1, mitochondria...  286     2e-91 
+UniRef90_V9IJ09 rRNA adenine N(6)-methyltransferase n=2 Tax=Apis ...  285     2e-91 
+UniRef90_W2T9A9 rRNA adenine N(6)-methyltransferase (Fragment) n=...  285     2e-91 
+UniRef90_A0A1B3PDA8 rRNA adenine N(6)-methyltransferase (Fragment...  284     6e-91 
+UniRef90_A0A293N6I4 rRNA adenine N(6)-methyltransferase (Fragment...  283     7e-91 
+UniRef90_A0A0N0BDA8 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  283     8e-91 
+UniRef90_UPI0004414732 S-adenosyl-L-methionine-dependent methyltr...  284     9e-91 
+UniRef90_A0A1I7YV17 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  283     1e-90 
+UniRef90_E3CU30 rRNA adenine N(6)-methyltransferase n=2 Tax=Caeno...  283     1e-90 
+UniRef90_A0A016SIP5 rRNA adenine N(6)-methyltransferase n=6 Tax=A...  283     2e-90 
+UniRef90_A0A0N4YIT1 rRNA adenine N(6)-methyltransferase n=2 Tax=N...  281     2e-90 
+UniRef90_E3CU31 rRNA adenine N(6)-methyltransferase n=1 Tax=Caeno...  283     3e-90 
+UniRef90_UPI0008DB7992 dimethyladenosine transferase 1, mitochond...  283     3e-90 
+UniRef90_F4PRW5 rRNA adenine N(6)-methyltransferase n=1 Tax=Caven...  286     3e-90 
+UniRef90_A0A1C7LUC6 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  280     1e-89 
+UniRef90_UPI000BE1B552 dimethyladenosine transferase 1, mitochond...  280     2e-89 
+UniRef90_A0A1I8Q255 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  280     2e-89 
+UniRef90_A0A0V1CMP1 Protein CLEC16A (Fragment) n=2 Tax=Trichinell...  302     2e-89 
+UniRef90_S8DVS5 rRNA adenine N(6)-methyltransferase n=1 Tax=Fomit...  281     3e-89 
+UniRef90_A0A1J1IMQ0 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  278     5e-89 
+UniRef90_A0A0N5B2N2 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  279     5e-89 
+UniRef90_A0A1S3H4I0 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  279     6e-89 
+UniRef90_A0A0V1HZL3 rRNA adenine N(6)-methyltransferase n=2 Tax=T...  292     9e-89 
+UniRef90_A0A0N5AXR4 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  278     1e-88 
+UniRef90_A0A0V0ZG24 Protein CLEC16A (Fragment) n=1 Tax=Trichinell...  300     1e-88 
+UniRef90_H2YRF1 rRNA adenine N(6)-methyltransferase n=1 Tax=Ciona...  279     1e-88 
+UniRef90_F1L9Z1 rRNA adenine N(6)-methyltransferase n=1 Tax=Ascar...  278     1e-88 
+UniRef90_A0A0B2V5A8 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  278     2e-88 
+UniRef90_A0A1L8EC20 rRNA adenine N(6)-methyltransferase n=2 Tax=H...  277     2e-88 
+UniRef90_A0A0V1KBV7 rRNA adenine N(6)-methyltransferase n=3 Tax=T...  299     2e-88 
+UniRef90_UPI0006D4F907 dimethyladenosine transferase 1, mitochond...  276     2e-88 
+UniRef90_A0A1Y2IVT0 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  278     3e-88 
+UniRef90_A0A0K0DUY7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  277     3e-88 
+UniRef90_A0A1A9X407 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  278     3e-88 
+UniRef90_UPI0004449E4B S-adenosyl-L-methionine-dependent methyltr...  279     3e-88 
+UniRef90_A0A1B3PDG1 rRNA adenine N(6)-methyltransferase (Fragment...  276     3e-88 
+UniRef90_V9L6B8 rRNA adenine N(6)-methyltransferase (Fragment) n=...  276     3e-88 
+UniRef90_Q54M56 rRNA adenine N(6)-methyltransferase n=1 Tax=Dicty...  281     4e-88 
+UniRef90_A0A131ZTL7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  277     6e-88 
+UniRef90_A0A0V1I1A4 rRNA adenine N(6)-methyltransferase n=2 Tax=T...  291     6e-88 
+UniRef90_UPI0006C95FFF dimethyladenosine transferase 1, mitochond...  276     7e-88 
+UniRef90_A0A1B0G218 rRNA adenine N(6)-methyltransferase n=6 Tax=G...  278     7e-88 
+UniRef90_A0A0K0G0M2 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  276     7e-88 
+UniRef90_A0A1E4SF47 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  276     8e-88 
+UniRef90_A0A0N4ZNR9 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  276     1e-87 
+UniRef90_A0A165RQM7 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  276     1e-87 
+UniRef90_B3M4B3 rRNA adenine N(6)-methyltransferase n=2 Tax=anana...  275     1e-87 
+UniRef90_P87250 Mitochondrial transcription factor 1 n=1 Tax=Kluy...  275     1e-87 
+UniRef90_UPI0003EDF253 dimethyladenosine transferase 1, mitochond...  275     2e-87 
+UniRef90_A0A0D0BPN7 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  278     2e-87 
+UniRef90_A0A125RDT6 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  274     3e-87 
+UniRef90_A0A0P4W523 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  274     3e-87 
+UniRef90_W4K5C5 rRNA adenine N(6)-methyltransferase (Fragment) n=...  274     3e-87 
+UniRef90_G3WJF2 rRNA adenine N(6)-methyltransferase n=1 Tax=Sarco...  274     3e-87 
+UniRef90_G8JVG3 rRNA adenine N(6)-methyltransferase n=1 Tax=Eremo...  273     3e-87 
+UniRef90_B3RWS2 rRNA adenine N(6)-methyltransferase n=1 Tax=Trich...  273     4e-87 
+UniRef90_A0A0L0BNF8 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  275     5e-87 
+UniRef90_UPI0004416A2D S-adenosyl-L-methionine-dependent methyltr...  275     7e-87 
+UniRef90_A0A261C605 rRNA adenine N(6)-methyltransferase (Fragment...  277     7e-87 
+UniRef90_T1GHF8 rRNA adenine N(6)-methyltransferase n=1 Tax=Megas...  275     1e-86 
+UniRef90_A0A182FC18 rRNA adenine N(6)-methyltransferase n=6 Tax=N...  274     1e-86 
+UniRef90_B4N4L6 rRNA adenine N(6)-methyltransferase n=1 Tax=Droso...  272     1e-86 
+UniRef90_B4IZB8 rRNA adenine N(6)-methyltransferase n=1 Tax=Droso...  274     2e-86 
+UniRef90_T1PDX3 rRNA adenine N(6)-methyltransferase n=1 Tax=Musca...  271     2e-86 
+UniRef90_A0A2L2YAB9 rRNA adenine N(6)-methyltransferase (Fragment...  271     2e-86 
+UniRef90_A0A090LCK9 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  272     2e-86 
+UniRef90_UPI000BAF29B6 dimethyladenosine transferase 1, mitochond...  271     2e-86 
+UniRef90_A0A2G8SKZ8 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  273     2e-86 
+UniRef90_A0A060TD45 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  271     3e-86 
+UniRef90_N6UEC9 rRNA adenine N(6)-methyltransferase (Fragment) n=...  270     3e-86 
+UniRef90_UPI00046E8B20 16S rRNA (adenine(1518)-N(6)/adenine(1519)...  269     3e-86 
+UniRef90_A0A0N4WA60 rRNA adenine N(6)-methyltransferase n=3 Tax=H...  270     5e-86 
+UniRef90_G3BE99 rRNA adenine N(6)-methyltransferase n=1 Tax=Candi...  271     5e-86 
+UniRef90_R9XBK9 rRNA adenine N(6)-methyltransferase n=1 Tax=Ashby...  270     6e-86 
+UniRef90_A0A067SVX2 rRNA adenine N(6)-methyltransferase n=1 Tax=G...  273     7e-86 
+UniRef90_Q2LZ79 Dimethyladenosine transferase 1, mitochondrial n=...  270     7e-86 
+UniRef90_UPI0007E679AD dimethyladenosine transferase 1, mitochond...  270     8e-86 
+UniRef90_A0A067NK86 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  272     1e-85 
+UniRef90_F6SN27 rRNA adenine N(6)-methyltransferase n=1 Tax=Ciona...  271     1e-85 
+UniRef90_W0TBD6 rRNA adenine N(6)-methyltransferase n=1 Tax=Kluyv...  270     1e-85 
+UniRef90_A0A1I8CUX0 rRNA adenine N(6)-methyltransferase n=1 Tax=R...  270     1e-85 
+UniRef90_A0A0K8V9J0 rRNA adenine N(6)-methyltransferase n=7 Tax=D...  269     2e-85 
+UniRef90_A0A167F9F3 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  268     2e-85 
+UniRef90_B4HEX6 rRNA adenine N(6)-methyltransferase n=2 Tax=melan...  271     2e-85 
+UniRef90_A0A0C3KKA5 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  272     2e-85 
+UniRef90_A0A1H5W915 Ribosomal RNA small subunit methyltransferase...  266     3e-85 
+UniRef90_K5UWB4 rRNA adenine N(6)-methyltransferase n=1 Tax=Phane...  271     3e-85 
+UniRef90_B4LCR3 rRNA adenine N(6)-methyltransferase n=1 Tax=Droso...  268     4e-85 
+UniRef90_A0A166X8N8 rRNA adenine N(6)-methyltransferase n=1 Tax=F...  271     5e-85 
+UniRef90_G3MPS8 rRNA adenine N(6)-methyltransferase n=1 Tax=Ambly...  268     7e-85 
+UniRef90_A0A2D8HJR5 Ribosomal RNA small subunit methyltransferase...  265     7e-85 
+UniRef90_W8BZL5 rRNA adenine N(6)-methyltransferase n=1 Tax=Cerat...  268     7e-85 
+UniRef90_Q9VTM5 Dimethyladenosine transferase 1, mitochondrial n=...  267     8e-85 
+UniRef90_UPI0008113221 mitochondrial dimethyladenosine transferas...  269     8e-85 
+UniRef90_A0A0N4VFL8 rRNA adenine N(6)-methyltransferase n=1 Tax=E...  268     1e-84 
+UniRef90_A0A0C2XBT9 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  270     1e-84 
+UniRef90_A0A094ZEZ1 rRNA adenine N(6)-methyltransferase (Fragment...  269     1e-84 
+UniRef90_A0A183V1Y2 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  275     1e-84 
+UniRef90_B4KUS7 rRNA adenine N(6)-methyltransferase n=3 Tax=reple...  266     2e-84 
+UniRef90_B0D1C3 rRNA adenine N(6)-methyltransferase n=1 Tax=Lacca...  270     2e-84 
+UniRef90_X7EHI6 Ribosomal RNA small subunit methyltransferase A n...  265     2e-84 
+UniRef90_A0A1L0E2V4 rRNA adenine N(6)-methyltransferase n=2 Tax=[...  267     3e-84 
+UniRef90_A0A1L9NUS6 Ribosomal RNA small subunit methyltransferase...  263     5e-84 
+UniRef90_A0A0N4UD04 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  266     7e-84 
+UniRef90_UPI0008115C3D dimethyladenosine transferase 1, mitochond...  265     9e-84 
+UniRef90_A5DPS0 rRNA adenine N(6)-methyltransferase n=2 Tax=Meyer...  266     1e-83 
+UniRef90_A3LTE8 rRNA adenine N(6)-methyltransferase n=1 Tax=Schef...  265     1e-83 
+UniRef90_A0A151Z360 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  269     1e-83 
+UniRef90_Q752L0 AFR564Wp n=1 Tax=Ashbya gossypii (strain ATCC 108...  265     1e-83 
+UniRef90_A0A0R3X8Y6 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  265     2e-83 
+UniRef90_A0A0J9GTY3 Ribosomal RNA small subunit methyltransferase...  261     3e-83 
+UniRef90_A8LI73 Ribosomal RNA small subunit methyltransferase A n...  261     3e-83 
+UniRef90_A0A2G5K7B4 Ribosomal RNA small subunit methyltransferase...  261     3e-83 
+UniRef90_UPI00083ECC4C dimethyladenosine transferase 1, mitochond...  263     4e-83 
+UniRef90_Q1GI39 Ribosomal RNA small subunit methyltransferase A n...  261     4e-83 
+UniRef90_A7HYG4 Ribosomal RNA small subunit methyltransferase A n...  261     5e-83 
+UniRef90_A0A1V9XD58 rRNA adenine N(6)-methyltransferase n=1 Tax=T...  263     6e-83 
+UniRef90_A0A2A9NWK8 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  265     6e-83 
+UniRef90_W6UR88 rRNA adenine N(6)-methyltransferase n=2 Tax=Echin...  281     7e-83 
+UniRef90_A0A068RFW1 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  261     8e-83 
+UniRef90_A0A1B7Z4U9 Ribosomal RNA small subunit methyltransferase...  260     9e-83 
+UniRef90_S7RR38 rRNA adenine N(6)-methyltransferase n=1 Tax=Gloeo...  262     9e-83 
+UniRef90_A0A086YCM2 Ribosomal RNA small subunit methyltransferase...  260     9e-83 
+UniRef90_A0A067PS86 rRNA adenine N(6)-methyltransferase n=1 Tax=J...  264     1e-82 
+UniRef90_A0A1X6YL63 Ribosomal RNA small subunit methyltransferase...  260     1e-82 
+UniRef90_A0A044RGZ9 rRNA adenine N(6)-methyltransferase n=3 Tax=O...  263     1e-82 
+UniRef90_V9VQR6 Ribosomal RNA small subunit methyltransferase A n...  260     1e-82 
+UniRef90_A0A238JV05 Ribosomal RNA small subunit methyltransferase...  260     1e-82 
+UniRef90_A0A2A6BS04 rRNA adenine N(6)-methyltransferase n=2 Tax=P...  269     2e-82 
+UniRef90_A0A1S0UEY4 rRNA adenine N(6)-methyltransferase n=1 Tax=L...  271     2e-82 
+UniRef90_A0A0C3A9M0 rRNA adenine N(6)-methyltransferase n=1 Tax=S...  264     3e-82 
+UniRef90_A0A037ZJ09 Ribosomal RNA small subunit methyltransferase...  259     3e-82 
+UniRef90_A0A2E6XZY6 Ribosomal RNA small subunit methyltransferase...  259     3e-82 
+UniRef90_UPI0003B77609 16S rRNA (adenine(1518)-N(6)/adenine(1519)...  259     3e-82 
+UniRef90_A0A1H3H005 Ribosomal RNA small subunit methyltransferase...  259     3e-82 
+UniRef90_A0A2E1UKT3 Ribosomal RNA small subunit methyltransferase...  258     5e-82 
+UniRef90_UPI00048FB4AE 16S rRNA (adenine(1518)-N(6)/adenine(1519)...  258     5e-82 
+UniRef90_A0A131YM25 rRNA adenine N(6)-methyltransferase n=3 Tax=I...  260     6e-82 
+UniRef90_A0A0N4TPI4 rRNA adenine N(6)-methyltransferase n=3 Tax=B...  271     6e-82 
+UniRef90_A0A1Y5E1P0 Ribosomal RNA small subunit methyltransferase...  258     6e-82 
+UniRef90_W4HP46 Ribosomal RNA small subunit methyltransferase A n...  258     6e-82 
+UniRef90_UPI00047F3EED 16S rRNA (adenine(1518)-N(6)/adenine(1519)...  258     6e-82 
+UniRef90_A0A0C3NZN0 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  262     7e-82 
+UniRef90_B6BCT9 Ribosomal RNA small subunit methyltransferase A n...  258     7e-82 
+UniRef90_A0A0T5P9T8 Ribosomal RNA small subunit methyltransferase...  258     7e-82 
+UniRef90_A0A0D0DTE3 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  259     7e-82 
+UniRef90_K5XYV1 rRNA adenine N(6)-methyltransferase n=2 Tax=Agari...  265     8e-82 
+UniRef90_A8N7I4 rRNA adenine N(6)-methyltransferase n=1 Tax=Copri...  263     8e-82 
+UniRef90_A0A0M3JWU6 rRNA adenine N(6)-methyltransferase n=1 Tax=A...  260     1e-81 
+UniRef90_A0A2M8UMS5 Ribosomal RNA small subunit methyltransferase...  257     1e-81 
+UniRef90_UPI00084AD89A dimethyladenosine transferase 1, mitochond...  260     1e-81 
+UniRef90_A0A0Q5WC91 Ribosomal RNA small subunit methyltransferase...  257     1e-81 
+UniRef90_A0A1C3RK37 Ribosomal RNA small subunit methyltransferase...  257     2e-81 
+UniRef90_A0A1I7VAQ7 rRNA adenine N(6)-methyltransferase n=2 Tax=L...  270     2e-81 
+UniRef90_A0A0P6DN32 rRNA adenine N(6)-methyltransferase (Fragment...  257     2e-81 
+UniRef90_A0A1B1PRX3 Ribosomal RNA small subunit methyltransferase...  257     2e-81 
+UniRef90_UPI0005C35B87 dimethyladenosine transferase 1, mitochond...  259     2e-81 
+UniRef90_C4Y8N4 rRNA adenine N(6)-methyltransferase n=1 Tax=Clavi...  260     2e-81 
+UniRef90_A0A1I7S143 rRNA adenine N(6)-methyltransferase n=1 Tax=B...  260     2e-81 
+UniRef90_A0A0W4ZHF8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  259     2e-81 
+UniRef90_A0A0R3UG21 rRNA adenine N(6)-methyltransferase n=1 Tax=M...  260     2e-81 
+UniRef90_UPI0002658E16 dimethyladenosine transferase 1, mitochond...  259     3e-81 
+UniRef90_A3SQ74 Ribosomal RNA small subunit methyltransferase A n...  256     3e-81 
+UniRef90_A0A0V1Q200 Uncharacterized protein n=2 Tax=Debaryomyces ...  259     3e-81 
+UniRef90_UPI0008E10CBF 16S rRNA (adenine(1518)-N(6)/adenine(1519)...  256     4e-81 
+UniRef90_A0A1E3PRU5 rRNA adenine N(6)-methyltransferase n=1 Tax=N...  260     4e-81 
+UniRef90_A0A1X7P088 Ribosomal RNA small subunit methyltransferase...  256     4e-81 
+UniRef90_G8YQZ5 rRNA adenine N(6)-methyltransferase n=1 Tax=Pichi...  258     7e-81 
+UniRef90_S9RM72 Ribosomal RNA small subunit methyltransferase A n...  255     8e-81 
+UniRef90_A0A1W2D799 Ribosomal RNA small subunit methyltransferase...  255     9e-81 
+UniRef90_A0A182E605 rRNA adenine N(6)-methyltransferase n=1 Tax=O...  270     9e-81 
+UniRef90_A0A0N8K5B5 Ribosomal RNA small subunit methyltransferase...  255     9e-81 
+UniRef90_A0A1E3QLJ2 rRNA adenine N(6)-methyltransferase (Fragment...  256     1e-80 
+UniRef90_A0A1E4RKI1 rRNA adenine N(6)-methyltransferase n=1 Tax=H...  258     1e-80 
+UniRef90_A0A1Y5HRY5 Ribosomal RNA small subunit methyltransferase...  255     1e-80 
+UniRef90_UPI00041233FD 16S rRNA (adenine(1518)-N(6)/adenine(1519)...  255     1e-80 
+UniRef90_A0A1Z8RNS4 Ribosomal RNA small subunit methyltransferase...  255     1e-80 
+UniRef90_Q0FKB5 Ribosomal RNA small subunit methyltransferase A n...  255     2e-80 
+UniRef90_UPI00083BE839 dimethyladenosine transferase 1, mitochond...  255     2e-80 
+UniRef90_A3XBE5 Ribosomal RNA small subunit methyltransferase A n...  255     2e-80 
+UniRef90_A0A0P1IQR3 Ribosomal RNA small subunit methyltransferase...  255     2e-80 
+UniRef90_A0A0Q6S864 Ribosomal RNA small subunit methyltransferase...  254     2e-80 
+UniRef90_A0A011US98 Ribosomal RNA small subunit methyltransferase...  254     2e-80 
+UniRef90_A0A1G5QAY8 Ribosomal RNA small subunit methyltransferase...  254     2e-80 
+UniRef90_A0A254R2D2 Ribosomal RNA small subunit methyltransferase...  254     2e-80 
+UniRef90_A0A137P993 rRNA adenine N(6)-methyltransferase n=1 Tax=C...  255     2e-80 
+UniRef90_UPI00044096AE S-adenosyl-L-methionine-dependent methyltr...  256     3e-80 
+UniRef90_A0A286IBH8 Ribosomal RNA small subunit methyltransferase...  254     3e-80 
+UniRef90_A0A1M7RYH4 Ribosomal RNA small subunit methyltransferase...  254     4e-80 
+UniRef90_A0A2E0IL23 Ribosomal RNA small subunit methyltransferase...  254     4e-80 
+UniRef90_A0A2A2KXU5 rRNA adenine N(6)-methyltransferase n=1 Tax=D...  267     4e-80 
+UniRef90_A0A1Y5RBP0 Ribosomal RNA small subunit methyltransferase...  253     4e-80 
+UniRef90_A0A1I0VA58 Ribosomal RNA small subunit methyltransferase...  253     4e-80 
+UniRef90_A0A0W4ZFT6 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  255     5e-80 
+UniRef90_A0A058ZRG5 Ribosomal RNA small subunit methyltransferase...  253     5e-80 
+UniRef90_A0A2C9CTF1 Ribosomal RNA small subunit methyltransferase...  253     5e-80 
+UniRef90_A0A286UGG8 rRNA adenine N(6)-methyltransferase n=1 Tax=P...  256     6e-80 
+
+Sequences not found previously or not previously below threshold:
+
+UniRef90_UPI000698F079 dimethyladenosine transferase 1, mitochond...  309     2e-100
+UniRef90_A0A2E2QGH3 Ribosomal RNA small subunit methyltransferase...  264     4e-84 
+UniRef90_A0A1X4ND35 Ribosomal RNA small subunit methyltransferase...  262     1e-83 
+UniRef90_A0A0M6YWR6 Ribosomal RNA small subunit methyltransferase...  261     3e-83 
+UniRef90_A0A1M7K2T5 Ribosomal RNA small subunit methyltransferase...  261     4e-83 
+UniRef90_A0A183TC40 rRNA adenine N(6)-methyltransferase n=2 Tax=S...  263     3e-82 
+UniRef90_UPI0005619718 16S rRNA (adenine(1518)-N(6)/adenine(1519)...  259     4e-82 
+UniRef90_A0A1H8YZ51 Ribosomal RNA small subunit methyltransferase...  258     4e-82 
+UniRef90_A0A1H8B5X1 Ribosomal RNA small subunit methyltransferase...  258     5e-82 
+UniRef90_A0A2D9YKY3 Ribosomal RNA small subunit methyltransferase...  258     6e-82 
+UniRef90_A0A2N3EB91 Ribosomal RNA small subunit methyltransferase...  258     7e-82 
+UniRef90_A0A225P0L2 Ribosomal RNA small subunit methyltransferase...  258     8e-82 
+UniRef90_A0A2E2JQD0 Ribosomal RNA small subunit methyltransferase...  258     9e-82 
+UniRef90_A0A1M4N0R2 Ribosomal RNA small subunit methyltransferase...  258     1e-81 
+UniRef90_A0A1V0PU58 Ribosomal RNA small subunit methyltransferase...  257     1e-81 
+UniRef90_A0A221JZG1 Ribosomal RNA small subunit methyltransferase...  257     1e-81 
+UniRef90_A0A0P1HER4 Ribosomal RNA small subunit methyltransferase...  257     2e-81 
+UniRef90_A0A1G8ST69 Ribosomal RNA small subunit methyltransferase...  257     2e-81 
+UniRef90_A1B0G4 Ribosomal RNA small subunit methyltransferase A n...  257     2e-81 
+UniRef90_A0A1G6JK93 Ribosomal RNA small subunit methyltransferase...  256     4e-81 
+UniRef90_UPI000D0BACCE 16S rRNA (adenine(1518)-N(6)/adenine(1519)...  256     6e-81 
+UniRef90_UPI000488FD47 16S rRNA (adenine(1518)-N(6)/adenine(1519)...  256     6e-81 
+UniRef90_A0A0N8K6V6 Ribosomal RNA small subunit methyltransferase...  255     7e-81 
+UniRef90_A0A165UL69 Ribosomal RNA small subunit methyltransferase...  255     8e-81 
+UniRef90_A0A1H2GAU4 Ribosomal RNA small subunit methyltransferase...  255     8e-81 
+UniRef90_S5XKU5 Ribosomal RNA small subunit methyltransferase A n...  255     9e-81 
+UniRef90_A0A1I6DZB3 Ribosomal RNA small subunit methyltransferase...  255     1e-80 
+UniRef90_W8S5I6 Ribosomal RNA small subunit methyltransferase A n...  255     1e-80 
+UniRef90_A0A0L1JKW0 Ribosomal RNA small subunit methyltransferase...  255     1e-80 
+UniRef90_F9Y6X4 Ribosomal RNA small subunit methyltransferase A n...  255     1e-80 
+UniRef90_E2CQ85 Ribosomal RNA small subunit methyltransferase A n...  255     1e-80 
+UniRef90_UPI000D078841 16S rRNA (adenine(1518)-N(6)/adenine(1519)...  255     1e-80 
+UniRef90_A0A0T5NT70 Ribosomal RNA small subunit methyltransferase...  255     1e-80 
+UniRef90_A3TXB0 Ribosomal RNA small subunit methyltransferase A n...  255     2e-80 
+UniRef90_A0A0D0KTJ5 Ribosomal RNA small subunit methyltransferase...  254     2e-80 
+UniRef90_A0A1M5VQD9 Ribosomal RNA small subunit methyltransferase...  254     2e-80 
+UniRef90_A0A0F7PNH1 Ribosomal RNA small subunit methyltransferase...  254     3e-80 
+UniRef90_A0A239GR50 Ribosomal RNA small subunit methyltransferase...  254     3e-80 
+UniRef90_S9QQK2 Ribosomal RNA small subunit methyltransferase A n...  254     3e-80 
+UniRef90_A0A0P7XJN8 Ribosomal RNA small subunit methyltransferase...  253     4e-80 
+UniRef90_A0A1X7BS07 Ribosomal RNA small subunit methyltransferase...  253     4e-80 
+UniRef90_A0A239EK61 Ribosomal RNA small subunit methyltransferase...  253     4e-80 
+UniRef90_A0A258ELB4 Ribosomal RNA small subunit methyltransferase...  254     5e-80 
+
+
+>UniRef90_H0GZN9 Mtf1p n=1 Tax=Saccharomyces cerevisiae x Saccharomyces 
+kudriavzevii (strain VIN7) TaxID=1095631 RepID=H0GZN9_SACCK
+Length=341
+
+ Score = 380 bits (976),  Expect = 7e-129, Method: Composition-based stats.
+ Identities = 303/340 (89%), Positives = 325/340 (96%), Gaps = 0/340 (0%)
+
+Query  1    SVPIPGIKDISKLKFFYGFKYLWNPTVYNKIFDKLDLTKTYKHPEELKVLDLYPGVGIQS  60
+            S+PIPGIKDISKLKFFYGFKYLWNPTVY+KIFDKLDLT+TYK+P+ELKVLDLYPGVG+QS
+Sbjct  2    SIPIPGIKDISKLKFFYGFKYLWNPTVYDKIFDKLDLTRTYKNPKELKVLDLYPGVGVQS  61
+
+Query  61   AIFYNKYCPRQYSLLEKRSSLYKFLNAKFEGSPLQILKRDPYDWSTYSNLIDEERIFVPE  120
+            AIFYNKY P+QYS++EKRSSLYKFL A  E SPLQILK+DPYDWSTYSNLI+EERIFVPE
+Sbjct  62   AIFYNKYSPKQYSMIEKRSSLYKFLKANLEDSPLQILKKDPYDWSTYSNLINEERIFVPE  121
+
+Query  121  VQSSDHINDKFLTVANVTGEGSEGLIMQWLSCIGNKNWLYRFGKVKMLLWMPSTTARKLL  180
+            VQ  DHIND FLTVANVTGEGSEGLIMQWLSCIGNKNWLYRFGKVKMLLWMPSTTARKLL
+Sbjct  122  VQPPDHINDTFLTVANVTGEGSEGLIMQWLSCIGNKNWLYRFGKVKMLLWMPSTTARKLL  181
+
+Query  181  ARPGMHSRSKCSVVREAFTDTKLIAISDANELKGFDSQCIEEWDPILFSAAEIWPTKGKP  240
+            ARP  HSRSKCSVVRE FTDTKL+AISDA+ELKGFDSQC+EEWDP++FSAA++WPTKGKP
+Sbjct  182  ARPSTHSRSKCSVVREGFTDTKLVAISDADELKGFDSQCLEEWDPVIFSAADMWPTKGKP  241
+
+Query  241  IALVEMDPIDFDFDVDNWDYVTRHLMILKRTPLNTVMDSLGHGGQQYFNSRITDKDLLKK  300
+            IALVEMDPIDFDFDV+NWDYVTRHLMILK TPL+TVMDSLGHGGQQYFNSRITDK LLKK
+Sbjct  242  IALVEMDPIDFDFDVENWDYVTRHLMILKGTPLSTVMDSLGHGGQQYFNSRITDKSLLKK  301
+
+Query  301  CPIDLTNDEFIYLTKLFMEWPFKPDILMDFVDMYQTEHSG  340
+             P+DLTN+EFIYLTKLF EWPFKPDILMDFVDMYQTEHSG
+Sbjct  302  RPLDLTNEEFIYLTKLFTEWPFKPDILMDFVDMYQTEHSG  341
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.172    0.519    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0526    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2648667095460
+
+
+  Database: uniref90
+    Posted date:  Jun 14, 2018 11:13 AM
+  Number of letters in database: 25,053,397,734
+  Number of sequences in database:  74,086,964
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
