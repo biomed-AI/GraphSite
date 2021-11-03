@@ -35,13 +35,10 @@ python ./script/GraphSite_predict.py --path ./demo/ --id 6ymw_B --msa single
 ```
 Set `--msa evo` to use only evolutionary features (PSSM + HMM) as MSA information (might causes large performance drop); Set `--msa both` to use the full version of GraphSite, which is the default option.  
 
-# Dataset, feature and model  
-We provide the datasets, the pre-predicted structures, the pre-computed features and the pre-trained models here for those interested in reproducing our paper.  
-The datasets used in this study (DNA_Train_573, DNA_Test_129 and DNA_Test_181) are stored in ./Dataset/ in python dictionary format:  
-```
-Dataset[ID] = [seq, label]
-```
-The Min-Max normalized PSSM, HMM and DSSP feature matrixes are stored in ./Feature/ and the normalized AlphaFold2 single representations are stored in [google drive](https://drive.google.com/drive/folders/1GGqqYBZAd2IA5BuQEzsHVJon1ZiQbgEy?usp=sharing).  
+# Dataset and model  
+We provide the datasets, the pre-predicted structures, and the pre-trained models here for those interested in reproducing our paper.  
+The datasets used in this study (DNA_Train_573, DNA_Test_129 and DNA_Test_181) are stored in ./Dataset/ in fasta format.  
+The AlphaFold2-predicted structures of the proteins in these three datasets are also in ./Dataset/.  
 The pre-trained GraphSite models can be found under ./Model/.  
 
 # Contact  
