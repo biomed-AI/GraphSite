@@ -1,5 +1,5 @@
 # Intro  
-GraphSite is a novel framework for sequence-based protein-DNA binding site prediction using graph transformer and predicted protein structures from AlphaFold2. We recommend you to use the [web server](https://biomed.nscc-gz.cn/apps/GraphSite) of GraphSite if your input is small (coming soon).  
+GraphSite is a novel framework for sequence-based protein-DNA binding site prediction using graph transformer and predicted protein structures from AlphaFold2. We recommend you to use the [web server](https://biomed.nscc-gz.cn/apps/graphsite) of GraphSite if your input is small.  
 ![GraphSite_framework](https://github.com/biomed-AI/GraphSite/blob/master/IMG/GraphSite_framework.png)   
 
 # System requirement  
@@ -15,7 +15,7 @@ To run the full & accurate version of GraphSite, you need to install the followi
 [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) and [UniRef90](https://www.uniprot.org/downloads)  
 [HH-suite](https://github.com/soedinglab/hh-suite) and [Uniclust30](https://uniclust.mmseqs.com/)  
 [DSSP](https://github.com/cmbi/dssp)  
-Besides, you need to provide the predicted protein structures along with the single representations from AlphaFold2. We recommend you to register and use the [Tianhe-2 supercomputer](https://starlight.nscc-gz.cn) platform, where AlphaFold2 was already installed with graphical interface.  
+Besides, you need to provide the predicted protein structures along with the single representations from AlphaFold2. We recommend you to register and use the [Tianhe-2 supercomputer](https://starlight.nscc-gz.cn) platform, where AlphaFold2 was already installed with graphical interface. You can also visit [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) to directly download the predicted structures and single representations (coming soon).  
 However, if you use the reduced version of GraphSite, the BLAST+&HH-suite and AlphaFold2 single representations are alternative.  
 
 # Build database and set path  
