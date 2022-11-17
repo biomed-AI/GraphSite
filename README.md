@@ -41,6 +41,23 @@ The datasets used in this study (DNA_Train_573, DNA_Test_129 and DNA_Test_181) a
 The AlphaFold2-predicted structures of the proteins in these three datasets are also in ./Dataset/.  
 The pre-trained GraphSite models can be found under ./Model/.  
 
-# Contact  
+# Citation and contact  
+Citation:  
+```bibtex
+@article{10.1093/bib/bbab564,
+    author = {Yuan, Qianmu and Chen, Sheng and Rao, Jiahua and Zheng, Shuangjia and Zhao, Huiying and Yang, Yuedong},
+    title = "{AlphaFold2-aware protein–DNA binding site prediction using graph transformer}",
+    journal = {Briefings in Bioinformatics},
+    volume = {23},
+    number = {2},
+    year = {2022},
+    month = {01},
+    issn = {1477-4054},
+    doi = {10.1093/bib/bbab564},
+    url = {https://doi.org/10.1093/bib/bbab564},
+}
+```
+
+Contact:  
 Qianmu Yuan (yuanqm3@mail2.sysu.edu.cn)  
 Yuedong Yang (yangyd25@mail.sysu.edu.cn)
