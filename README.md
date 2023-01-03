@@ -37,7 +37,7 @@ python ./script/GraphSite_predict.py --path ./demo/ --id 6ymw_B --msa single
 Set `--msa evo` to use only evolutionary features (PSSM + HMM) as MSA information (might causes large performance drop); Set `--msa both` to use the full version of GraphSite, which is the default option.  
 
 # Dataset and model  
-We provide the datasets, the pre-predicted structures, and the pre-trained models here for those interested in reproducing our paper.  
+We provide the datasets, the pre-predicted structures, the single representations, and the pre-trained models here for those interested in reproducing our paper.  
 The datasets used in this study (DNA_Train_573, DNA_Test_129 and DNA_Test_181) are stored in ./Dataset/ in fasta format.  
 The AlphaFold2-predicted structures of the proteins in these three datasets are also in ./Dataset/.  
 The AlphaFold2 single representations of the proteins can be found in [here](https://drive.google.com/file/d/1qCbqAncR1k6IXmTIPhaLEyWxuk1Wy-z-/view?usp=sharing).  
