@@ -15,8 +15,9 @@ To run the full & accurate version of GraphSite, you need to install the followi
 [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) and [UniRef90](https://www.uniprot.org/downloads)  
 [HH-suite](https://github.com/soedinglab/hh-suite) and [Uniclust30](https://uniclust.mmseqs.com/)  
 [DSSP](https://github.com/cmbi/dssp)  
-Besides, you need to provide the predicted protein structures along with the single representations from AlphaFold2. To generate these files from sequence, you can first run [AlphaFold2](http://bio-web1.nscc-gz.cn/app/alphaFold2_bio) on our biomedical AI platform. You can also visit [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) to directly download the predicted structures and single representations (coming soon).  
+Besides, you need to provide the predicted protein structures along with the single representations from AlphaFold2. To generate these files from sequences, you can first run [AlphaFold2](http://bio-web1.nscc-gz.cn/app/alphaFold2_bio) on our biomedical AI platform. You can also visit [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) to directly download the predicted structures and single representations (coming soon).  
 However, if you use the reduced version of GraphSite, the BLAST+&HH-suite and AlphaFold2 single representations are alternative.  
+:star:Note: Besides the predicted structures, the outputs of AlphaFold2 also contain result_model_\*.pkl, which is a python dictionary. You can get the single representation matrix in this dictionary via the keys of "representations" and then "single".  
 
 # Build database and set path  
 1. Use `makeblastdb` in BLAST+ to build UniRef90 ([guide](https://www.ncbi.nlm.nih.gov/books/NBK569841/)).  
@@ -39,7 +40,7 @@ Set `--msa evo` to use only evolutionary features (PSSM + HMM) as MSA informatio
 We provide the datasets, the pre-predicted structures, and the pre-trained models here for those interested in reproducing our paper.  
 The datasets used in this study (DNA_Train_573, DNA_Test_129 and DNA_Test_181) are stored in ./Dataset/ in fasta format.  
 The AlphaFold2-predicted structures of the proteins in these three datasets are also in ./Dataset/.  
-The AlphaFold2 single representations of the proteins can be found in [here](https://drive.google.com/file/d/1qCbqAncR1k6IXmTIPhaLEyWxuk1Wy-z-/view?usp=sharing).
+The AlphaFold2 single representations of the proteins can be found in [here](https://drive.google.com/file/d/1qCbqAncR1k6IXmTIPhaLEyWxuk1Wy-z-/view?usp=sharing).  
 The pre-trained GraphSite models can be found under ./Model/.  
 
 # Citation and contact  
