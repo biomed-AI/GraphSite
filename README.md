@@ -1,5 +1,5 @@
 # Intro  
-GraphSite is a novel framework for sequence-based protein-DNA binding site prediction using graph transformer and predicted protein structures from AlphaFold2. We recommend you to use the [web server](https://biomed.nscc-gz.cn/apps/GraphSite) of GraphSite if your input is small.  
+GraphSite is a novel framework for sequence-based protein-DNA binding site prediction using graph transformer and predicted protein structures from AlphaFold2. We recommend you to use the [web server](http://bio-web1.nscc-gz.cn/app/graphsite) of GraphSite if your input is small.  
 ![GraphSite_framework](https://github.com/biomed-AI/GraphSite/blob/master/IMG/GraphSite_framework.png)   
 
 # System requirement  
@@ -15,7 +15,7 @@ To run the full & accurate version of GraphSite, you need to install the followi
 [BLAST+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/) and [UniRef90](https://www.uniprot.org/downloads)  
 [HH-suite](https://github.com/soedinglab/hh-suite) and [Uniclust30](https://uniclust.mmseqs.com/)  
 [DSSP](https://github.com/cmbi/dssp)  
-Besides, you need to provide the predicted protein structures along with the single representations from AlphaFold2. We recommend you to register and use the [Tianhe-2 supercomputer](https://starlight.nscc-gz.cn) platform, where AlphaFold2 was already installed with graphical interface. You can also visit [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) to directly download the predicted structures and single representations (coming soon).  
+Besides, you need to provide the predicted protein structures along with the single representations from AlphaFold2. To generate these files from sequence, you can first run [AlphaFold2](http://bio-web1.nscc-gz.cn/app/alphaFold2_bio) on our biomedical AI platform. You can also visit [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) to directly download the predicted structures and single representations (coming soon).  
 However, if you use the reduced version of GraphSite, the BLAST+&HH-suite and AlphaFold2 single representations are alternative.  
 
 # Build database and set path  
@@ -39,6 +39,7 @@ Set `--msa evo` to use only evolutionary features (PSSM + HMM) as MSA informatio
 We provide the datasets, the pre-predicted structures, and the pre-trained models here for those interested in reproducing our paper.  
 The datasets used in this study (DNA_Train_573, DNA_Test_129 and DNA_Test_181) are stored in ./Dataset/ in fasta format.  
 The AlphaFold2-predicted structures of the proteins in these three datasets are also in ./Dataset/.  
+The AlphaFold2 single representations of the proteins can be found in [here](https://drive.google.com/file/d/1qCbqAncR1k6IXmTIPhaLEyWxuk1Wy-z-/view?usp=sharing).
 The pre-trained GraphSite models can be found under ./Model/.  
 
 # Citation and contact  
