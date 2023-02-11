@@ -17,7 +17,7 @@ To run the full & accurate version of GraphSite, you need to install the followi
 [DSSP](https://github.com/cmbi/dssp)  
 Besides, you need to provide the predicted protein structures along with the single representations from AlphaFold2. To generate these files from sequences, you can first run [AlphaFold2](http://bio-web1.nscc-gz.cn/app/alphaFold2_bio) on our biomedical AI platform. You can also visit [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/) to directly download the predicted structures and single representations (coming soon).  
 However, if you use the reduced version of GraphSite, the BLAST+&HH-suite and AlphaFold2 single representations are alternative.  
-:star:Note: Besides the predicted structures, the outputs of AlphaFold2 also contain result_model_\*.pkl, which is a python dictionary. You can get the single representation matrix in this dictionary via the keys of "representations" and then "single".  
+:star:Note: If you run the standalone AlaphaFold2 on your own, please set `return_representations=True` in `class AlphaFold(hk.Module)`. Besides the predicted structures, the outputs of AlphaFold2 also contain `result_model_\*.pkl`, which is a python dictionary. If you set this parameter, you can get the single representation matrix in this dictionary via the keys of "representations" and then "single".  
 
 # Build database and set path  
 1. Use `makeblastdb` in BLAST+ to build UniRef90 ([guide](https://www.ncbi.nlm.nih.gov/books/NBK569841/)).  
