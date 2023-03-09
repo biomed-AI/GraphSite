@@ -1,5 +1,5 @@
 # Intro  
-GraphSite is a novel framework for sequence-based protein-DNA binding site prediction using graph transformer and predicted protein structures from AlphaFold2. We recommend you to use the [web server](http://bio-web1.nscc-gz.cn/app/graphsite) of GraphSite if your input is small.  
+GraphSite is a novel framework for sequence-based protein-DNA binding site prediction using graph transformer and predicted protein structures from AlphaFold2. We recommend you to use the [web server (new version)](http://bio-web1.nscc-gz.cn/app/graphsite) of GraphSite if your input is small.  
 ![GraphSite_framework](https://github.com/biomed-AI/GraphSite/blob/master/IMG/GraphSite_framework.png)   
 
 # System requirement  
